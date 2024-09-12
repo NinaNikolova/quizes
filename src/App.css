@@ -2,37 +2,186 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%;
+  /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  border: 0.5px solid gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+.question-text {
+  color: black;
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%;
+  /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: red;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+.quiz-selector {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  width: 80%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.quiz-selector label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+
+}
+
+.quiz-selector select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+
+
+}
+
+.quiz-selector select:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.quiz-container {
+  transition: background-color 0.5s ease;
+}
+
+@keyframes flashGreen {
+  0% {
+    border-color: green;
+    background-color: transparent;
+  }
+
+  50% {
+    border-color: lightgreen;
+    background-color: #d4edda;
+  }
+
+  100% {
+    border-color: green;
+    background-color: transparent;
+  }
+}
+
+.correct {
+  animation: flashGreen 1s ease-out;
+  border: 2px solid green;
+}
+
+/* Animation for incorrect answer */
+@keyframes flashRed {
+  0% {
+    border-color: red;
+    background-color: transparent;
+  }
+
+  50% {
+    border-color: lightcoral;
+    background-color: #f8d7da;
+  }
+
+  100% {
+    border-color: red;
+    background-color: transparent;
+  }
+}
+
+.incorrect {
+  animation: flashRed 1s ease-out;
+  border: 2px solid red;
+}
+
+
+.quiz-container p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-container button {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
   color: white;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.quiz-container button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-question {
+  color: gray;
 }
