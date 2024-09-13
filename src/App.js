@@ -15,6 +15,7 @@ function App() {
   const [selectedQuiz, setSelectedQuiz] = useState('bel');
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
   const [isFlashing, setIsFlashing] = useState(false);
+  const [hasAnswered, setHasAnswered] = useState(false);
   const questionColors = ['#FFBF00', '#FC6600', '#0080FE', '#B200ED', '#C7EA46', '#FF6FFF', '#C7EA46'];
   const questions = (() => {
     switch (selectedQuiz) {
@@ -36,7 +37,10 @@ function App() {
   })();
 
   const optionClicked = (isCorrect) => {
-    handleAnswer(isCorrect);
+    if (!hasAnswered) {  // Only allow selection if question hasn't been answered
+      handleAnswer(isCorrect);
+
+    }
   };
 
   const restartGame = () => {
@@ -55,9 +59,10 @@ function App() {
   const handleAnswer = (isCorrect) => {
     setIsAnswerCorrect(isCorrect);
     setIsFlashing(true);
+    setHasAnswered(true);  // Always set this to true after the first answer, even if incorrect
 
     if (isCorrect) {
-      setScore(score + 1);
+      setScore(score + 1);  // Increment score only if the answer is correct
     }
 
     setTimeout(() => {
@@ -66,12 +71,12 @@ function App() {
 
       if (currentQuestion + 1 < questions.length) {
         setCurrentQuestion(currentQuestion + 1);
+        setHasAnswered(false);  // Reset hasAnswered for the next question
       } else {
         setShowResults(true);
       }
-    }, 2000); // Delay before moving to the next question (2 seconds)
+    }, 2000);  // Delay before moving to the next question (2 seconds)
   };
-
   useEffect(() => {
     if (isFlashing && isAnswerCorrect !== null) {
       const timer = setTimeout(() => {
@@ -122,7 +127,7 @@ function App() {
           </div>
 
           <h2 className="no-question" >
-            Въпрос: {currentQuestion + 1} от {questions.length}
+            Въпрос: {currentQuestion + 1} от {questions.length} въпроса
           </h2>
           <h3 className="question-text" style={{ color: questionColors[currentQuestion % questionColors.length] }}>{questions[currentQuestion].text}</h3>
 
