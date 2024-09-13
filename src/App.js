@@ -10,7 +10,7 @@ function App() {
   const [selectedQuiz, setSelectedQuiz] = useState('bel');
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
   const [isFlashing, setIsFlashing] = useState(false);
-
+  const questionColors = ['brown', 'orange', 'blue', 'purple', 'green', 'pink'];
   const questions = selectedQuiz === 'bel' ? questionsBel : questionsMat;
 
   const optionClicked = (isCorrect) => {
@@ -95,16 +95,17 @@ function App() {
             )}
           </div>
 
-          <h2 className="no-question">
+          <h2 className="no-question" >
             Въпрос: {currentQuestion + 1} от {questions.length}
           </h2>
-          <h3 className="question-text">{questions[currentQuestion].text}</h3>
+          <h3 className="question-text" style={{ color: questionColors[currentQuestion % questionColors.length] }}>{questions[currentQuestion].text}</h3>
 
           <ul>
             {questions[currentQuestion].options.map((option) => (
               <li
                 key={option.id}
                 onClick={() => optionClicked(option.isCorrect)}
+                style={{ color: questionColors[currentQuestion % questionColors.length] }}
               >
                 {option.text}
               </li>
