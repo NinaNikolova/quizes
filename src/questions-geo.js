@@ -11,9 +11,9 @@ const questionsGeo = [
     {
         text: "В коя посока се движите, ако срещу вас е залязващото слънце?",
         options: [
-            { id: 0, text: "изток", isCorrect: true },
+            { id: 0, text: "изток", isCorrect: false },
             { id: 1, text: "север", isCorrect: false },
-            { id: 2, text: "запад", isCorrect: false },
+            { id: 2, text: "запад", isCorrect: true },
             { id: 3, text: "юг", isCorrect: false },
         ],
     },
@@ -21,9 +21,9 @@ const questionsGeo = [
         text: "Разстоянието между т. А и т. Б на географската карта е 5 см, а мащабът на картата е 1:5 000 000. Колко е действителното разстояние между т. А и т. Б?",
         options: [
             { id: 0, text: "75 000 km", isCorrect: false },
-            { id: 1, text: "250 km", isCorrect: false },
+            { id: 1, text: "250 km", isCorrect: true },
             { id: 2, text: "25 km", isCorrect: false },
-            { id: 3, text: "7500 km", isCorrect: true },
+            { id: 3, text: "7500 km", isCorrect: false },
         ],
     },
     {
