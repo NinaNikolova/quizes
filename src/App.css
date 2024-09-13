@@ -35,7 +35,13 @@ li {
 }
 
 li:hover {
+  margin-top: 8px;
   background-color: gray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .question-text {
@@ -65,8 +71,22 @@ li:hover {
 }
 
 button {
-  background-color: red;
+  background-color: lightgreen;
   /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+button:hover {
+  background-color: green;
   border: none;
   color: white;
   padding: 16px 24px;
@@ -147,7 +167,7 @@ button {
   color: green;
   animation: flashGreen 1s ease-out;
   position: absolute;
-  top: 10%;
+  top: 26%;
   right: 10%;
 }
 
@@ -158,6 +178,6 @@ button {
   color: red;
   animation: flashRed 1s ease-out;
   position: absolute;
-  top: 10%;
+  top: 26%;
   right: 10%;
 }

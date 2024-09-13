@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import questionsBel from "./questions-bel.js";
 import questionsMat from "./questions-mat.js";
+import questionsHist from "./questions-hist.js";
+import questionsLit from "./questions-lit.js";
+import questionsGeo from "./questions-geo.js";
+import questionsChp from "./questions-chp.js";
+
 
 function App() {
   const [showResults, setShowResults] = useState(false);
@@ -10,8 +15,25 @@ function App() {
   const [selectedQuiz, setSelectedQuiz] = useState('bel');
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
   const [isFlashing, setIsFlashing] = useState(false);
-  const questionColors = ['brown', 'orange', 'blue', 'purple', 'green', 'pink'];
-  const questions = selectedQuiz === 'bel' ? questionsBel : questionsMat;
+  const questionColors = ['#FFBF00', '#FC6600', '#0080FE', '#B200ED', '#C7EA46', '#FF6FFF', '#C7EA46'];
+  const questions = (() => {
+    switch (selectedQuiz) {
+      case 'bel':
+        return questionsBel;
+      case 'mat':
+        return questionsMat;
+      case 'hist':
+        return questionsHist;
+      case 'lit':
+        return questionsLit;
+      case 'geo':
+        return questionsGeo;
+      case 'chp':
+        return questionsChp;
+      default:
+        return [];
+    }
+  })();
 
   const optionClicked = (isCorrect) => {
     handleAnswer(isCorrect);
@@ -69,6 +91,10 @@ function App() {
         <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
           <option value="bel">Български език</option>
           <option value="mat">Математика</option>
+          <option value="lit">Литература</option>
+          <option value="hist">История</option>
+          <option value="chp">Човек и природа</option>
+          <option value="geo">География</option>
         </select>
       </div>
 
