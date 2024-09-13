@@ -146,8 +146,8 @@ const questionsChp = [
     {
         text: "Кой от посочените примери НЕ е метод за разделяне на смеси?",
         options: [
-            { id: 0, text: "нагряване", isCorrect: false },
-            { id: 1, text: "филтриране", isCorrect: true },
+            { id: 0, text: "нагряване", isCorrect: true },
+            { id: 1, text: "филтриране", isCorrect: false },
             { id: 2, text: "изпарение", isCorrect: false },
             { id: 3, text: "утаяване", isCorrect: true },
         ],

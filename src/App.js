@@ -17,6 +17,7 @@ function App() {
   const [isFlashing, setIsFlashing] = useState(false);
   const [hasAnswered, setHasAnswered] = useState(false);
   const questionColors = ['#FFBF00', '#FC6600', '#0080FE', '#B200ED', '#C7EA46', '#FF6FFF', '#C7EA46'];
+
   const questions = (() => {
     switch (selectedQuiz) {
       case 'bel':
@@ -49,6 +50,7 @@ function App() {
     setShowResults(false);
     setIsFlashing(false);
     setIsAnswerCorrect(null);
+    setHasAnswered(false)
   };
 
   const handleQuizChange = (event) => {
@@ -110,7 +112,7 @@ function App() {
           <h1>Краен резултат</h1>
           <h2>
             {score} правилни от {questions.length}  - (
-            {(score / questions.length) * 100}%)
+            {((score / questions.length) * 100).toFixed(2)}%)
           </h2>
           <button onClick={restartGame}>Започни отново</button>
         </div>
