@@ -116,52 +116,6 @@ button {
   transition: background-color 0.5s ease;
 }
 
-@keyframes flashGreen {
-  0% {
-    border-color: green;
-    background-color: transparent;
-  }
-
-  50% {
-    border-color: lightgreen;
-    background-color: #d4edda;
-  }
-
-  100% {
-    border-color: green;
-    background-color: transparent;
-  }
-}
-
-.correct {
-  animation: flashGreen 1s ease-out;
-  border: 2px solid green;
-}
-
-/* Animation for incorrect answer */
-@keyframes flashRed {
-  0% {
-    border-color: red;
-    background-color: transparent;
-  }
-
-  50% {
-    border-color: lightcoral;
-    background-color: #f8d7da;
-  }
-
-  100% {
-    border-color: red;
-    background-color: transparent;
-  }
-}
-
-.incorrect {
-  animation: flashRed 1s ease-out;
-  border: 2px solid red;
-}
-
-
 .quiz-container p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -184,4 +138,26 @@ button {
 
 .no-question {
   color: gray;
+}
+
+/* Grin Icon */
+.grin-icon {
+  font-size: 3rem;
+  /* Adjust size as needed */
+  color: green;
+  animation: flashGreen 1s ease-out;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+/* Red Icon */
+.red-icon {
+  font-size: 3rem;
+  /* Adjust size as needed */
+  color: red;
+  animation: flashRed 1s ease-out;
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
