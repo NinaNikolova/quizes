@@ -125,6 +125,132 @@ const questionsBel = [
             { id: 3, text: "истината", isCorrect: false },
         ],
     },
+    {
+        text: "В коя от думите има правописна грешка?",
+        options: [
+            { id: 0, text: "далечен", isCorrect: false },
+            { id: 1, text: "патека", isCorrect: true },
+            { id: 2, text: "мълча", isCorrect: false },
+            { id: 3, text: "гадая", isCorrect: false },
+        ],
+    },
+    {
+        text: "В коя от думите има правописна грешка?",
+        options: [
+            { id: 0, text: "глухарче", isCorrect: false },
+            { id: 1, text: "другар", isCorrect: false },
+            { id: 2, text: "смотен", isCorrect: true },
+            { id: 3, text: "изморен", isCorrect: false },
+        ],
+    },
+    {
+        text: "В коя от думите има правописна грешка?",
+        options: [
+            { id: 0, text: "убида", isCorrect: true },
+            { id: 1, text: "упреквам", isCorrect: false },
+            { id: 2, text: "умножавам", isCorrect: false },
+            { id: 3, text: "умора", isCorrect: false },
+        ],
+    },
+    {
+        text: "В коя от думите има правописна грешка?",
+        options: [
+            { id: 0, text: "потоп", isCorrect: false },
+            { id: 1, text: "чорап", isCorrect: false },
+            { id: 2, text: "сироп", isCorrect: false },
+            { id: 3, text: "корап", isCorrect: true },
+        ],
+    },
+    {
+        text: "Коя от думите е съществително име?",
+        options: [
+            { id: 0, text: "цвете", isCorrect: true },
+            { id: 1, text: "цветен", isCorrect: false },
+            { id: 2, text: "оцветявам", isCorrect: false },
+            { id: 3, text: "цветно", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя от думите е прилагателно име?",
+        options: [
+            { id: 0, text: "украсявам", isCorrect: false },
+            { id: 1, text: "красота", isCorrect: false },
+            { id: 2, text: "красив", isCorrect: true },
+            { id: 3, text: "красавица", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя от думите е глагол?",
+        options: [
+            { id: 0, text: "бегач", isCorrect: false },
+            { id: 1, text: "бягане", isCorrect: false },
+            { id: 2, text: "беглец", isCorrect: false },
+            { id: 3, text: "бягам", isCorrect: true },
+        ],
+    },
+    {
+        text: "Коя от думите е числително редно име?",
+        options: [
+            { id: 0, text: "първенец", isCorrect: false },
+            { id: 1, text: "първи", isCorrect: true },
+            { id: 2, text: "първенство", isCorrect: false },
+            { id: 3, text: "един", isCorrect: false },
+        ],
+    },
+    {
+        text: "В кое от изреченията думата бързо е наречие?",
+        options: [
+            { id: 0, text: "Това дете е бързо.", isCorrect: false },
+            { id: 1, text: "То тича бързо.", isCorrect: true },
+            { id: 2, text: "В гората шумоли бързо поточе.", isCorrect: false },
+            { id: 3, text: "Той има най-бързото куче.", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя от думите НЕ е синоним на останалите?",
+        options: [
+            { id: 0, text: "храбър", isCorrect: false },
+            { id: 1, text: "смел", isCorrect: false },
+            { id: 2, text: "добър", isCorrect: true },
+            { id: 3, text: "безстрашен", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя от думите е без представка?",
+        options: [
+            { id: 0, text: "слънце", isCorrect: true },
+            { id: 1, text: "сграда", isCorrect: false },
+            { id: 2, text: "свързвам", isCorrect: false },
+            { id: 3, text: "сбор", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя от думите е без наставка?",
+        options: [
+            { id: 0, text: "бързовар", isCorrect: false },
+            { id: 1, text: "комар", isCorrect: true },
+            { id: 2, text: "млекар", isCorrect: false },
+            { id: 3, text: "гайдар", isCorrect: false },
+        ],
+    },
+    {
+        text: "В кой ред глаголът пея е в минало свършено време?",
+        options: [
+            { id: 0, text: "пея", isCorrect: false },
+            { id: 1, text: "ще пея", isCorrect: false },
+            { id: 2, text: "пях", isCorrect: true },
+            { id: 3, text: "пеех", isCorrect: false },
+        ],
+    },
+    {
+        text: "В кой ред глаголът играя е в минало несвършено време?",
+        options: [
+            { id: 0, text: "играят", isCorrect: false },
+            { id: 1, text: "ще играя", isCorrect: false },
+            { id: 2, text: "играх", isCorrect: false },
+            { id: 3, text: "играех", isCorrect: true },
+        ],
+    },
 ];
 
 export default questionsBel;
