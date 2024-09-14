@@ -90,6 +90,42 @@ const questionsLit = [
             { id: 3, text: "полегат – наклонен", isCorrect: false },
         ],
     },
+    {
+        text: "Кой от редовете много ясно НЕ съдържа синоними?",
+        options: [
+            { id: 0, text: "приказлив – мълчалив", isCorrect: true },
+            { id: 1, text: "умен – разумен", isCorrect: false },
+            { id: 2, text: "добър – добродетел", isCorrect: false },
+            { id: 3, text: "полегат – равен", isCorrect: false },
+        ],
+    },
+    {
+        text: "В коя от думите е допусната правописна грешка?",
+        options: [
+            { id: 0, text: "бухъл", isCorrect: true },
+            { id: 1, text: "мухъл", isCorrect: false },
+            { id: 2, text: "кокал", isCorrect: false },
+            { id: 3, text: "пумпал", isCorrect: false },
+        ],
+    },
+    {
+        text: "В коя от думите е допусната правописна грешка?",
+        options: [
+            { id: 0, text: "оглушавам", isCorrect: false },
+            { id: 1, text: "огладнявам", isCorrect: false },
+            { id: 2, text: "огасявам", isCorrect: true },
+            { id: 3, text: "ограничавам", isCorrect: false },
+        ],
+    },
+    {
+        text: "В кое от изреченията късно НЕ е наречие?",
+        options: [
+            { id: 0, text: "Всички документи са прегледани късно в понеделник.", isCorrect: false },
+            { id: 1, text: "Обаждаш се твърде късно, за да мога да ти помогна.", isCorrect: false },
+            { id: 2, text: "Легнах си късно и сега ми се спи.", isCorrect: false },
+            { id: 3, text: "Понякога децата плашат майките си с късно проговаряне.", isCorrect: true },
+        ],
+    },
 ];
 
 export default questionsLit;
