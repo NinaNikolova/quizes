@@ -89,6 +89,42 @@ const questionsBel = [
             { id: 3, text: "За нашия отбор е чест да има такъв добър състезател.", isCorrect: false },
         ],
     },
+    {
+        text: "В кое изречение е употребено минало свършено деятелно причастие?",
+        options: [
+            { id: 0, text: "Девойката пеела чудна песен.", isCorrect: false },
+            { id: 1, text: "Момчето мечтаело да стане моряк.", isCorrect: false },
+            { id: 2, text: " Звездата светнала над планината.", isCorrect: true },
+            { id: 3, text: "По цял ден мислел за нея.", isCorrect: false },
+        ],
+    },
+    {
+        text: "На кой ред думата е НЕПРАВИЛНО написана?",
+        options: [
+            { id: 0, text: "малак", isCorrect: true },
+            { id: 1, text: "къдрав", isCorrect: false },
+            { id: 2, text: "гъвкав", isCorrect: true },
+            { id: 3, text: "казал", isCorrect: false },
+        ],
+    },
+    {
+        text: "На кой ред думата е НЕПРАВИЛНО написана?",
+        options: [
+            { id: 0, text: "влязъл", isCorrect: false },
+            { id: 1, text: "здание", isCorrect: false },
+            { id: 2, text: "могъл", isCorrect: false },
+            { id: 3, text: "покойте", isCorrect: true },
+        ],
+    },
+    {
+        text: "На кой ред думата е НЕПРАВИЛНО написана?",
+        options: [
+            { id: 0, text: "искренност", isCorrect: true },
+            { id: 1, text: "здание", isCorrect: false },
+            { id: 2, text: "очакваше", isCorrect: false },
+            { id: 3, text: "истината", isCorrect: false },
+        ],
+    },
 ];
 
 export default questionsBel;
