@@ -94,6 +94,20 @@ function App() {
         }
     }, [isFlashing, isAnswerCorrect]);
 
+    const calculateGrade = (percentage) => {
+        if (percentage >= 90) {
+            return "Отличен(6)";
+        } else if (percentage >= 75) {
+            return "Много добър(5)";
+        } else if (percentage >= 60) {
+            return "Добър(4)";
+        } else if (percentage >= 45) {
+            return "Среден(3)";
+        } else {
+            return "Слаб(2)";
+        }
+    };
+
     return (
         <div className="App">
             <h1>Тестове за входно ниво за 6-ти клас</h1>
@@ -118,6 +132,9 @@ function App() {
                     <h2>
                         {score} правилни от {questions.length}  - (
                         {((score / questions.length) * 100).toFixed(2)}%)
+                    </h2>
+                    <h2>
+                        Оценка: {calculateGrade((score / questions.length) * 100)}
                     </h2>
                     {/* Display wrong answers */}
                     {wrongQuestions.length > 0 && (
