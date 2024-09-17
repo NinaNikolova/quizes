@@ -138,19 +138,19 @@ function App() {
                     </h2>
                     {/* Display wrong answers */}
                     {wrongQuestions.length > 0 && (
-                        <div className="wrong-answers">
+                        <div>
                             <h3>Грешни въпроси:</h3>
                             <ul>
                                 {wrongQuestions.map((question, index) => (
                                     <li key={index}>
                                         <strong>{question.text}</strong>
-                                        <ul>
-                                            {question.options.map((option) => (
-                                                <li key={option.id} style={{ color: option.isCorrect ? 'green' : 'red' }}>
-                                                    {option.text}
-                                                </li>
-                                            ))}
-                                        </ul>
+
+                                        {question.options.map((option, index) => (
+                                            <div key={option.id} style={{ color: option.isCorrect ? 'green' : 'red' }}>
+                                                {index + 1}/{option.text}
+                                            </div>
+                                        ))}
+
                                     </li>
                                 ))}
                             </ul>
