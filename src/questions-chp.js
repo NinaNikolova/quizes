@@ -162,15 +162,6 @@ const questionsChp = [
         ],
     },
     {
-        text: "Кое е вярното твърдение?",
-        options: [
-            { id: 0, text: "Веществата имат променлив състав, а смесите имат постоянен състав.", isCorrect: false },
-            { id: 1, text: "Веществата и смесите имат постоянен състав.", isCorrect: false },
-            { id: 2, text: "Веществата и смесите имат променлив състав.", isCorrect: false },
-            { id: 3, text: "Веществата имат постоянен състав, а смесите имат променлив състав.", isCorrect: true },
-        ],
-    },
-    {
         text: "За кой процес се отнасят следващите характеристики? • Извършва се във всички организми. • Свързан е с обмяната на вещества между организма и околната среда. • Доставя на клетките кислород.",
         options: [
             { id: 0, text: "дишане", isCorrect: true },
@@ -210,8 +201,8 @@ const questionsChp = [
         text: "Килограмът е единица за:",
         options: [
             { id: 0, text: "плътност", isCorrect: false },
-            { id: 1, text: "маса", isCorrect: false },
-            { id: 2, text: "тегло", isCorrect: true },
+            { id: 1, text: "маса", isCorrect: true },
+            { id: 2, text: "тегло", isCorrect: false },
             { id: 3, text: "налягане", isCorrect: false },
         ],
     },
