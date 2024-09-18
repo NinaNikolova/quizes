@@ -82,13 +82,13 @@ function App() {
                 setShowResults(true);
 
             }
-        }, 2000);  // Delay before moving to the next question (2 seconds)
+        }, 1400);  // Delay before moving to the next question (2 seconds)
     };
     useEffect(() => {
         if (isFlashing && isAnswerCorrect !== null) {
             const timer = setTimeout(() => {
                 setIsFlashing(false);
-            }, 1000);
+            }, 1400);
 
             return () => clearTimeout(timer);
         }
@@ -96,15 +96,15 @@ function App() {
 
     const calculateGrade = (percentage) => {
         if (percentage >= 90) {
-            return "Отличен(6)";
+            return "Отличен(6) 🚀🥳👏";
         } else if (percentage >= 75) {
-            return "Много добър(5)";
+            return "Много добър(5) 👏";
         } else if (percentage >= 60) {
-            return "Добър(4)";
+            return "Добър(4) 👌";
         } else if (percentage >= 45) {
-            return "Среден(3)";
+            return "Среден(3) 👀";
         } else {
-            return "Слаб(2)";
+            return "Слаб(2)🙁";
         }
     };
 
@@ -163,7 +163,7 @@ function App() {
                     <div className="result">
                         {isFlashing && (
                             isAnswerCorrect ? (
-                                <span className="grin-icon">😊</span>
+                                <span className="grin-icon">✔️</span>
                             ) : (
                                 <span className="red-icon">❌</span>
                             )
