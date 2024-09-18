@@ -16,7 +16,7 @@ function App() {
     const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
     const [isFlashing, setIsFlashing] = useState(false);
     const [hasAnswered, setHasAnswered] = useState(false);
-    const questionColors = ['#FFBF00', '#FC6600', '#0080FE', '#B200ED', '#C7EA46', '#FF6FFF', '#C7EA46'];
+    const questionColors = ['#FFBF00', '#FC6600', 'blue', '#FF6600', '#B200ED', 'green', 'red'];
     const [wrongQuestions, setWrongQuestions] = useState([]);
 
     const questions = (() => {
