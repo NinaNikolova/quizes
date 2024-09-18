@@ -18,21 +18,21 @@ const questionsMat = [
         ],
     },
     {
-        text: "Разликата 3 1/4 – 2,2 е равна на:",
+        text: "Една книга  струва  30%  от 240 лева . Колко струва книгата ?",
         options: [
-            { id: 0, text: "1,2", isCorrect: false },
-            { id: 1, text: "1,05", isCorrect: true },
-            { id: 2, text: "1", isCorrect: false },
-            { id: 3, text: "0,94", isCorrect: false },
+            { id: 0, text: "52 лев", isCorrect: false },
+            { id: 1, text: "256 лева", isCorrect: false },
+            { id: 2, text: "82 лева", isCorrect: false },
+            { id: 3, text: "72 лева", isCorrect: true },
         ],
     },
     {
-        text: "Произведението 4/7 * 0,35 е равно на:",
+        text: "Произведението 4/7 * 70 е равно на:",
         options: [
-            { id: 0, text: "0,2", isCorrect: true },
+            { id: 0, text: "40", isCorrect: true },
             { id: 1, text: "4/5", isCorrect: false },
             { id: 2, text: "20", isCorrect: false },
-            { id: 3, text: "2", isCorrect: false },
+            { id: 3, text: "35", isCorrect: false },
         ],
     },
     {
@@ -54,30 +54,30 @@ const questionsMat = [
         ],
     },
     {
-        text: "Ако 3,6 : x = 3/5 * 1 1/2, то x е равно на:",
+        text: "В една кошница има няколко яйца. Ако 0,4 от тях са 4 броя, то яйцата  в кошницата  са?",
         options: [
-            { id: 0, text: "0,25", isCorrect: false },
+            { id: 0, text: "25", isCorrect: false },
             { id: 1, text: "0,4", isCorrect: false },
             { id: 2, text: "3,24", isCorrect: false },
-            { id: 3, text: "4", isCorrect: true },
+            { id: 3, text: "10", isCorrect: true },
         ],
     },
     {
-        text: "Ако 16,5 + x = 41,3 – 12,7, то x е равно на:",
+        text: "На 2, на 3 и на 5  се дели числото:",
         options: [
-            { id: 0, text: "121", isCorrect: false },
-            { id: 1, text: "45,1", isCorrect: false },
-            { id: 2, text: "37,5", isCorrect: false },
-            { id: 3, text: "12,1", isCorrect: true },
+            { id: 0, text: "37400", isCorrect: false },
+            { id: 1, text: "3452", isCorrect: false },
+            { id: 2, text: "12398", isCorrect: false },
+            { id: 3, text: "26070", isCorrect: true },
         ],
     },
     {
-        text: "Стойността на израза 4/7 * 2 1/3 – 1 1/3 : 2 2/3 е:",
+        text: "Една от страните на триъгълник с лице 24% по–малко от 120 квадратни сантиметра е 6 см. Височината на триъгълника към тази страна е:",
         options: [
-            { id: 0, text: "3/14", isCorrect: false },
-            { id: 1, text: "5/6", isCorrect: true },
-            { id: 2, text: "1", isCorrect: false },
-            { id: 3, text: "1 37/42", isCorrect: false },
+            { id: 0, text: "9 cm", isCorrect: false },
+            { id: 1, text: "30,4 cm", isCorrect: true },
+            { id: 2, text: "15,6 cm", isCorrect: false },
+            { id: 3, text: "23,6 cm", isCorrect: false },
         ],
     },
     {
@@ -89,6 +89,42 @@ const questionsMat = [
             { id: 3, text: "5", isCorrect: true },
         ],
     },
+    {
+        text: "Лицето на правоъгълен триъгълник е 18 кв.см. Ако един от катетите му е 9 см, то вторият катет е:",
+        options: [
+            { id: 0, text: "3 см", isCorrect: false },
+            { id: 1, text: "4 см", isCorrect: true },
+            { id: 2, text: "6 см", isCorrect: false },
+            { id: 3, text: "друг отговор", isCorrect: false },
+        ],
+    },
+    {
+        text: "Милена си купува блузка с цена от 80 лева. Като редовна клиентка на магазина ѝ правят отстъпка от 20%. Колко струва блузката след намалението?",
+        options: [
+            { id: 0, text: "94 лева", isCorrect: false },
+            { id: 1, text: "56 лева", isCorrect: false },
+            { id: 2, text: "64 лева", isCorrect: true },
+            { id: 3, text: "друг отговор", isCorrect: false },
+        ],
+    },
+    {
+        text: "Цял куб се боядисва с 6 туби боя, всяка от които покрива 2,25 квадратни дециметра. Намерете ръба на куба в дециметри.",
+        options: [
+            { id: 0, text: "15 дм", isCorrect: false },
+            { id: 1, text: "1,5 дм", isCorrect: true },
+            { id: 2, text: "2,5 дм", isCorrect: false },
+            { id: 3, text: "25 дм", isCorrect: false },
+        ],
+    },
+    {
+        text: "Ако успоредник със страна 8 см и височина към нея 3 см и триъгълник с основа 5 см имат равни лица, то височината към основата на триъгълника е:",
+        options: [
+            { id: 0, text: "12.6 cm", isCorrect: false },
+            { id: 1, text: "8.5 cm", isCorrect: false },
+            { id: 2, text: "9.6 cm", isCorrect: true },
+            { id: 3, text: "друг отговор", isCorrect: false },
+        ],
+    }
 ];
 
 export default questionsMat;
