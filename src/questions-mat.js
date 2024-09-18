@@ -18,7 +18,7 @@ const questionsMat = [
         ],
     },
     {
-        text: "Една книга  струва  30%  от 240 лева . Колко струва книгата ?",
+        text: "Една книга струва 30% от 240 лева. Колко струва книгата?",
         options: [
             { id: 0, text: "52 лев", isCorrect: false },
             { id: 1, text: "256 лева", isCorrect: false },
@@ -54,7 +54,7 @@ const questionsMat = [
         ],
     },
     {
-        text: "В една кошница има няколко яйца. Ако 0,4 от тях са 4 броя, то яйцата  в кошницата  са?",
+        text: "В една кошница има няколко яйца. Ако 0,4 от тях са 4 броя, то яйцата в кошницата са?",
         options: [
             { id: 0, text: "25", isCorrect: false },
             { id: 1, text: "0,4", isCorrect: false },
@@ -63,7 +63,7 @@ const questionsMat = [
         ],
     },
     {
-        text: "На 2, на 3 и на 5  се дели числото:",
+        text: "На 2, на 3 и на 5 се дели числото:",
         options: [
             { id: 0, text: "37400", isCorrect: false },
             { id: 1, text: "3452", isCorrect: false },
