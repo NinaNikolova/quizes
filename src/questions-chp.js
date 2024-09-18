@@ -63,24 +63,6 @@ const questionsChp = [
         ],
     },
     {
-        text: "Коя от изброените съставни части на въздуха НЕ е постоянна?",
-        options: [
-            { id: 0, text: "азот", isCorrect: false },
-            { id: 1, text: "аргон", isCorrect: false },
-            { id: 2, text: "кислород", isCorrect: false },
-            { id: 3, text: "въглероден диоксид", isCorrect: true },
-        ],
-    },
-    {
-        text: "Кое е вярното твърдение? Водата:",
-        options: [
-            { id: 0, text: "не е добър разтворител", isCorrect: false },
-            { id: 1, text: "е добър проводник на топлина", isCorrect: false },
-            { id: 2, text: "съдържа водород, кислород и азот", isCorrect: false },
-            { id: 3, text: "лесно преминава от едно състояние в друго", isCorrect: true },
-        ],
-    },
-    {
         text: "Кое е вярното твърдение?",
         options: [
             { id: 0, text: "Веществата имат постоянен състав, а смесите имат променлив състав.", isCorrect: true },
