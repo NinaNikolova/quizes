@@ -216,7 +216,7 @@ const questionsChp = [
         ],
     },
     {
-        text: "За хидростатичното налягане е вярно, че:",
+        text: "За налягането на водата е вярно, че:",
         options: [
             { id: 0, text: "намалява с увеличаване на дълбочината", isCorrect: false },
             { id: 1, text: "е еднакво на всякаква дълбочина", isCorrect: false },
@@ -225,12 +225,12 @@ const questionsChp = [
         ],
     },
     {
-        text: "При наелектризиране на стъклена пръчка чрез триене с вълнен плат:",
+        text: "Кой от газовете поддържа горенето?",
         options: [
-            { id: 0, text: "преминават протони от пръчката в плата", isCorrect: false },
-            { id: 1, text: "пръчката и вълненият плат получават еднакви по знак заряди", isCorrect: false },
-            { id: 2, text: "преминават електрони от пръчката във вълнения плат", isCorrect: true },
-            { id: 3, text: "се създават електрични заряди", isCorrect: false },
+            { id: 0, text: "водород", isCorrect: false },
+            { id: 1, text: "азот", isCorrect: false },
+            { id: 2, text: "кислород", isCorrect: true },
+            { id: 3, text: "серен диоксид", isCorrect: false },
         ],
     },
     {
@@ -252,12 +252,12 @@ const questionsChp = [
         ],
     },
     {
-        text: "Натриевият атом се превръща в положителен натриев йон като:",
+        text: "Органи за хранене при растенията са:",
         options: [
-            { id: 0, text: "приеме един протон", isCorrect: false },
-            { id: 1, text: "отдаде един протон", isCorrect: false },
-            { id: 2, text: "приеме един електрон", isCorrect: false },
-            { id: 3, text: "отдаде един електрон", isCorrect: true },
+            { id: 0, text: "стъблото", isCorrect: false },
+            { id: 1, text: "цветовете", isCorrect: false },
+            { id: 2, text: "корените", isCorrect: false },
+            { id: 3, text: "листата", isCorrect: true },
         ],
     },
     {
@@ -270,21 +270,21 @@ const questionsChp = [
         ],
     },
     {
-        text: "Кое от твърденията се отнася за химично свойство?",
+        text: "Кое водно животно диша с бял дроб?",
         options: [
-            { id: 0, text: "Медта лесно се кове и изтегля на нишки.", isCorrect: false },
-            { id: 1, text: "Желязото ръждясва в среда от влажен въздух.", isCorrect: true },
-            { id: 2, text: "Температурата на кипене на спирта е 78 о С.", isCorrect: false },
-            { id: 3, text: "Кислородът се разтваря слабо във вода.", isCorrect: false },
+            { id: 0, text: "водна конче", isCorrect: false },
+            { id: 1, text: "кит", isCorrect: true },
+            { id: 2, text: "мида", isCorrect: false },
+            { id: 3, text: "шаран", isCorrect: false },
         ],
     },
     {
-        text: "Кой от означните процеси е химично разлагане?",
+        text: "Кое равенство е вярно?",
         options: [
-            { id: 0, text: "желязо + меден дихлорид -> железен дихлорид + мед", isCorrect: false },
-            { id: 1, text: "желязо + солна киселина -> водород и железен дихлорид", isCorrect: false },
-            { id: 2, text: "вода -> кислород + водород", isCorrect: true },
-            { id: 3, text: "желязо + сяра -> железен сулфид", isCorrect: false },
+            { id: 0, text: "0,38 л = 38 мл", isCorrect: false },
+            { id: 1, text: " 0,016 л = 160 мл", isCorrect: false },
+            { id: 2, text: "78 мл = 0,078 л", isCorrect: true },
+            { id: 3, text: "1490 мл = 14,9 л", isCorrect: false },
         ],
     },
     {
@@ -306,21 +306,21 @@ const questionsChp = [
         ],
     },
     {
-        text: "В кой от отговорите са посочени САМО увреждания на опорно-двигателната система?",
+        text: "В кой ред са изброени само органи от храносмилателната система?",
         options: [
-            { id: 0, text: "счупване и инфаркт", isCorrect: false },
-            { id: 1, text: "навяхване и изкълчване", isCorrect: true },
-            { id: 2, text: "рахит и инсулт", isCorrect: false },
-            { id: 3, text: "изкълчване и инсулт", isCorrect: false },
+            { id: 0, text: "стомах, бял дроб", isCorrect: false },
+            { id: 1, text: "стомах, тънко черво", isCorrect: true },
+            { id: 2, text: "дебело черво, бъбреци", isCorrect: false },
+            { id: 3, text: "тънко черво, бъбреци", isCorrect: false },
         ],
     },
     {
-        text: "В кои органи кръвта отдава кислород и приема въглероден диоксид?",
+        text: "Кое вещество се отделя при процеса фотосинтеза?",
         options: [
-            { id: 0, text: "артериите", isCorrect: false },
-            { id: 1, text: "капилярите", isCorrect: true },
-            { id: 2, text: "белия дроб", isCorrect: false },
-            { id: 3, text: "вените", isCorrect: false },
+            { id: 0, text: "азот", isCorrect: false },
+            { id: 1, text: "кислород", isCorrect: true },
+            { id: 2, text: "водород", isCorrect: false },
+            { id: 3, text: "въглероден диоксид", isCorrect: false },
         ],
     },
     {
@@ -333,12 +333,12 @@ const questionsChp = [
         ],
     },
     {
-        text: "Кое от заболяванията НЕ се предава по полов път?",
+        text: "Коя е пропуснатата дума? Във въздуха се съдържат 78% ............, 21% кислород и други примеси.",
         options: [
-            { id: 0, text: "бронхит", isCorrect: true },
-            { id: 1, text: "сифилис", isCorrect: false },
-            { id: 2, text: "гонорея", isCorrect: false },
-            { id: 3, text: "трихомониаза", isCorrect: false },
+            { id: 0, text: "азот", isCorrect: true },
+            { id: 1, text: "водород", isCorrect: false },
+            { id: 2, text: "водни пари", isCorrect: false },
+            { id: 3, text: "въглероден диоксид", isCorrect: false },
         ],
     },
 ];
