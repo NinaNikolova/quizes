@@ -163,7 +163,7 @@ function App() {
                     <div className="result">
                         {isFlashing && (
                             isAnswerCorrect ? (
-                                <span className="grin-icon">✔️</span>
+                                <span className="grin-icon">😀</span>
                             ) : (
                                 <span className="red-icon">❌</span>
                             )
