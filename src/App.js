@@ -6,6 +6,10 @@ import questionsHist from "./questions-hist.js";
 import questionsLit from "./questions-lit.js";
 import questionsGeo from "./questions-geo.js";
 import questionsChp from "./questions-chp.js";
+import QuizSelector from "./components/QuizSelector.js";
+
+import { calculateGrade } from "./utils/calculateGrade.js";
+import FinalResults from "./components/FinalResults.js";
 
 
 function App() {
@@ -94,70 +98,24 @@ function App() {
         }
     }, [isFlashing, isAnswerCorrect]);
 
-    const calculateGrade = (percentage) => {
-        if (percentage >= 90) {
-            return "Отличен(6) 🚀🥳👏";
-        } else if (percentage >= 75) {
-            return "Много добър(5) 👏";
-        } else if (percentage >= 60) {
-            return "Добър(4) 👌";
-        } else if (percentage >= 45) {
-            return "Среден(3) 👀";
-        } else {
-            return "Слаб(2)🙁";
-        }
-    };
+
 
     return (
         <div className="App">
             <h1>Тестове за входно ниво за 6-ти клас</h1>
 
-            <div className="quiz-selector">
-                <label htmlFor="quiz-select">Избери предмет:</label>
-                <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
-                    <option value="bel">Български език</option>
-                    <option value="mat">Математика</option>
-                    <option value="lit">Литература</option>
-                    <option value="hist">История</option>
-                    <option value="chp">Човек и природа</option>
-                    <option value="geo">География</option>
-                </select>
-            </div>
+            <QuizSelector selectedQuiz={selectedQuiz} handleQuizChange={handleQuizChange} />
 
             <h2>Резултат: {score}</h2>
 
             {showResults ? (
-                <div className="final-results">
-                    <h1>Краен резултат</h1>
-                    <h2>
-                        {score} правилни от {questions.length}  - (
-                        {((score / questions.length) * 100).toFixed(2)}%)
-                    </h2>
-                    <h2>
-                        Оценка: {calculateGrade((score / questions.length) * 100)}
-                    </h2>
-                    {/* Display wrong answers */}
-                    {wrongQuestions.length > 0 && (
-                        <div>
-                            <h3>Грешни въпроси:</h3>
-                            <ul>
-                                {wrongQuestions.map((question, index) => (
-                                    <li key={index}>
-                                        <strong>{question.text}</strong>
-
-                                        {question.options.map((option, index) => (
-                                            <div key={option.id} style={{ color: option.isCorrect ? 'green' : 'red' }}>
-                                                {index + 1}/{option.text}
-                                            </div>
-                                        ))}
-
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    )}
-                    <button onClick={restartGame}>Започни отново</button>
-                </div>
+                <FinalResults
+                    score={score}
+                    questions={questions}
+                    wrongQuestions={wrongQuestions}
+                    restartGame={restartGame}
+                    calculateGrade={calculateGrade}
+                />
             ) : (
                 <div className={`question-card ${isFlashing ? (isAnswerCorrect ? 'correct' : 'incorrect') : ''}`}>
                     <div className="result">
