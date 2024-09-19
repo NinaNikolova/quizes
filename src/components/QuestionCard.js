@@ -1,30 +1,36 @@
 import React from 'react'
 
-export default function QuestionCard({ wrongQuestions, restartGame }) {
-
+export default function QuestionCard({ currentQuestion, questions, questionColors, optionClicked, isFlashing, isAnswerCorrect, hasAnswered }) {
     return (
-        <div className="final-results">
-            <h1>Краен резултат</h1>
+        <div className={`question-card ${isFlashing ? (isAnswerCorrect ? 'correct' : 'incorrect') : ''}`}>
+            <div className="result">
+                {isFlashing && (
+                    isAnswerCorrect ? (
+                        <span className="grin-icon">😀</span>
+                    ) : (
+                        <span className="red-icon">❌</span>
+                    )
+                )}
+            </div>
 
+            <h2 className="no-question">
+                Въпрос: {currentQuestion + 1} от {questions.length} въпроса
+            </h2>
+            <h3 className="question-text" style={{ color: questionColors[currentQuestion % questionColors.length] }}>
+                {questions[currentQuestion].text}
+            </h3>
 
-            {wrongQuestions?.length > 0 && (
-                <div>
-                    <h3>Грешни въпроси:</h3>
-                    <ul>
-                        {wrongQuestions.map((question, index) => (
-                            <li key={index}>
-                                <strong>{question.text}</strong>
-                                {question.options.map((option, index) => (
-                                    <div key={option.id} style={{ color: option.isCorrect ? 'green' : 'red' }}>
-                                        {index + 1}/{option.text}
-                                    </div>
-                                ))}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            )}
-            <button onClick={restartGame}>Започни отново</button>
+            <ul>
+                {questions[currentQuestion].options.map((option) => (
+                    <li
+                        key={option.id}
+                        onClick={() => optionClicked(option.isCorrect)}
+                        style={{ color: questionColors[currentQuestion % questionColors.length] }}
+                    >
+                        {option.text}
+                    </li>
+                ))}
+            </ul>
         </div>
-    );
+    )
 }

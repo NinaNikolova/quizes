@@ -10,6 +10,7 @@ import QuizSelector from "./components/QuizSelector.js";
 
 import { calculateGrade } from "./utils/calculateGrade.js";
 import FinalResults from "./components/FinalResults.js";
+import QuestionCard from "./components/QuestionCard.js";
 
 
 function App() {
@@ -117,34 +118,15 @@ function App() {
                     calculateGrade={calculateGrade}
                 />
             ) : (
-                <div className={`question-card ${isFlashing ? (isAnswerCorrect ? 'correct' : 'incorrect') : ''}`}>
-                    <div className="result">
-                        {isFlashing && (
-                            isAnswerCorrect ? (
-                                <span className="grin-icon">😀</span>
-                            ) : (
-                                <span className="red-icon">❌</span>
-                            )
-                        )}
-                    </div>
-
-                    <h2 className="no-question" >
-                        Въпрос: {currentQuestion + 1} от {questions.length} въпроса
-                    </h2>
-                    <h3 className="question-text" style={{ color: questionColors[currentQuestion % questionColors.length] }}>{questions[currentQuestion].text}</h3>
-
-                    <ul>
-                        {questions[currentQuestion].options.map((option) => (
-                            <li
-                                key={option.id}
-                                onClick={() => optionClicked(option.isCorrect)}
-                                style={{ color: questionColors[currentQuestion % questionColors.length] }}
-                            >
-                                {option.text}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <QuestionCard
+                    currentQuestion={currentQuestion}
+                    questions={questions}
+                    questionColors={questionColors}
+                    optionClicked={optionClicked}
+                    isFlashing={isFlashing}
+                    isAnswerCorrect={isAnswerCorrect}
+                    hasAnswered={hasAnswered}
+                />
             )}
         </div>
     );
