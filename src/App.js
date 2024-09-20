@@ -6,6 +6,7 @@ import questionsHist from "./questions-hist.js";
 import questionsLit from "./questions-lit.js";
 import questionsGeo from "./questions-geo.js";
 import questionsChp from "./questions-chp.js";
+import questionsKM from "./questions-km.js";
 import QuizSelector from "./components/QuizSelector.js";
 
 import { calculateGrade } from "./utils/calculateGrade.js";
@@ -38,6 +39,8 @@ function App() {
                 return questionsGeo;
             case 'chp':
                 return questionsChp;
+            case 'km':
+                return questionsKM;
             default:
                 return [];
         }
