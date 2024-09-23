@@ -107,6 +107,164 @@ const questionsGeo = [
             { id: 3, text: "християнството", isCorrect: true },
         ],
     },
+    {
+        text: "Кой извършва първото околосветско пътешествие?",
+        options: [
+            { id: 0, text: "Христофор Колумб", isCorrect: false },
+            { id: 1, text: "Фернандо Магелан", isCorrect: true },
+            { id: 2, text: "Васко да Гама", isCorrect: false },
+            { id: 3, text: "Джеймс Кук", isCorrect: false },
+        ],
+    },
+    {
+        text: "Какви са последиците от въртенето на Земята около оста й?",
+        options: [
+            { id: 0, text: "Смяна на сезоните", isCorrect: false },
+            { id: 2, text: "Изменение на климата", isCorrect: false },
+            { id: 1, text: "Смяна на деня и нощта", isCorrect: true },
+            { id: 3, text: "Гравитационни аномалии", isCorrect: false },
+        ],
+    },
+    {
+        text: "Какво е хидросфера?",
+        options: [
+            { id: 0, text: "Част от атмосферата", isCorrect: false },
+            { id: 2, text: "Земната кора", isCorrect: false },
+            { id: 3, text: "Вътрешният слой на Земята", isCorrect: false },
+            { id: 1, text: "Водната обвивка на Земята", isCorrect: true },
+        ],
+    },
+    {
+        text: "Кое от изброените е климатичен елемент?",
+        options: [
+            { id: 0, text: "Температура", isCorrect: true },
+            { id: 1, text: "Ландшафт", isCorrect: false },
+            { id: 2, text: "Пустиня", isCorrect: false },
+            { id: 3, text: "Континент", isCorrect: false },
+        ],
+    },
+    {
+        text: "За коя природна зона са характерни: високи температури, обилни дъждове, латеритни почви, палми, орхидеи, лиани, колибри, маймуни, слон, ягуар?",
+        options: [
+            { id: 0, text: "Тропични гори", isCorrect: true },
+            { id: 1, text: "Пустиня", isCorrect: false },
+            { id: 2, text: "Степ", isCorrect: false },
+            { id: 3, text: "Тундра", isCorrect: false },
+        ],
+    },
+    {
+        text: "От каква раса е човек със следните външни белези: тъмна, твърда и къдрава коса; тъмни очи; широки ноздри; едри устни; тъмна кожа?",
+        options: [
+            { id: 2, text: "Негроидна", isCorrect: true },
+            { id: 0, text: "Европеидна", isCorrect: false },
+            { id: 1, text: "Монголоидна", isCorrect: false },
+
+            { id: 3, text: "Австралоидна", isCorrect: false },
+        ],
+    },
+
+
+    {
+        text: "Коя е най-дългата река в Африка?",
+        options: [
+            { id: 0, text: "Конго", isCorrect: false },
+            { id: 1, text: "Нигер", isCorrect: false },
+            { id: 2, text: "Нил", isCorrect: true },
+            { id: 3, text: "Замбези", isCorrect: false },
+        ],
+    },
+    {
+        text: "Най-голямата пустиня на Земята е:",
+        options: [
+            { id: 0, text: "Сахара, в Африка", isCorrect: true },
+            { id: 1, text: "Гоби, в Азия", isCorrect: false },
+            { id: 2, text: "Антарктическа пустиня", isCorrect: false },
+            { id: 3, text: "Арабска пустиня", isCorrect: false },
+        ],
+    },
+    {
+        text: "Кои географски координати са на обект, разположен близо до Северния полюс и на изток от Гринуичкия меридиан?",
+        options: [
+            { id: 0, text: "23° с.г.ш.  90° з.г.д.", isCorrect: false },
+            { id: 1, text: "88° с.г.ш.  66° и.г.д.", isCorrect: true },
+            { id: 2, text: "5° ю.г.ш. 35° з.г.д.", isCorrect: false },
+            { id: 3, text: "90° ю.г.ш. 179° и.г.д.", isCorrect: false },
+        ],
+    },
+    {
+        text: "В кой климатичен пояс се сменят екваториални и тропични въздушни маси?",
+        options: [
+            { id: 0, text: "Екваториален", isCorrect: false },
+            { id: 2, text: "Тропичен", isCorrect: false },
+            { id: 3, text: "Субтропичен", isCorrect: false },
+            { id: 1, text: "Субекваториален", isCorrect: true },
+        ],
+    },
+    {
+        text: "На кой ред елементите от правилото за характеризиране на река са подредени правилно?",
+        options: [
+            { id: 0, text: "2, 5, 1, 4, 3", isCorrect: true },
+            { id: 1, text: "2, 4, 1, 5, 3", isCorrect: false },
+            { id: 2, text: "4, 5, 1, 3, 2", isCorrect: false },
+            { id: 3, text: "3, 2, 1, 5, 4", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя дума е пропусната в текста? Природните зони са ивици с различен териториален обхват, редуващи се на север и юг от Екватора, които почти съвпадат с климатичните пояси, а външният им облик се определя в най-голяма степен от:",
+        options: [
+            { id: 0, text: "Почвите", isCorrect: false },
+            { id: 1, text: "Растителността", isCorrect: true },
+            { id: 2, text: "Животинския свят", isCorrect: false },
+            { id: 3, text: "Водите", isCorrect: false },
+        ],
+    },
+    {
+        text: "Отбележете вярнoтo твърдение:",
+        options: [
+            { id: 0, text: "Броят на населението в света продължава да расте – по-бързо в Африка и Азия и по-бавно в Европа.", isCorrect: true },
+            { id: 1, text: "Градът е населено място, в което жителите му се занимават предимно с земеделска дейност.", isCorrect: false },
+            { id: 2, text: "Типичен проблем за селата е пренаселеността, а за градовете – обезлюдяването.", isCorrect: false },
+            { id: 3, text: "Средната гъстота на населението се изчислява, като се раздели площта на територията на броя на населението.", isCorrect: false },
+        ],
+    },
+
+    {
+        text: "Коя от особеностите на географското положение и границите НЕ е типична само за Африка?",
+        options: [
+            { id: 0, text: "Граничи с Атлантическия океан и Средиземно море", isCorrect: true },
+            { id: 1, text: "Пресича се от Екватора и Гринуичкия меридиан", isCorrect: false },
+            { id: 2, text: "Територията е в четирите полукълба", isCorrect: false },
+            { id: 3, text: "Пресича се от двете тропични окръжности", isCorrect: false },
+        ],
+    },
+    {
+        text: "Коя релефна форма в Африка, разположена близо до Екватора, е с голяма надморска височина?",
+        options: [
+            { id: 0, text: "Областта Судан", isCorrect: false },
+            { id: 1, text: "Заирска котловина", isCorrect: false },
+            { id: 2, text: "Килиманджаро", isCorrect: true },
+            { id: 3, text: "Сахара", isCorrect: false },
+        ],
+    },
+    {
+        text: "Ако сте геолог, къде бихте търсили полезни изкопаеми?",
+        options: [
+            { id: 0, text: "Диаманти – в Южна Африка", isCorrect: true },
+            { id: 1, text: "Фосфорити – в Драконовите планини", isCorrect: false },
+            { id: 2, text: "Нефт – в Килиманджаро", isCorrect: false },
+            { id: 3, text: "Графит – в Гвинейския залив", isCorrect: false },
+        ],
+    },
+    {
+        text: "Кои постоянни ветрове в Африка, които се движат от тропиците към Екватора, са североизточни – сухи и югоизточни – влажни?",
+        options: [
+            { id: 1, text: "Мусони", isCorrect: false },
+            { id: 2, text: "Циклони", isCorrect: false },
+            { id: 3, text: "Урагани", isCorrect: false },
+            { id: 0, text: "Пасати", isCorrect: true },
+        ],
+    },
+
 ];
 
 export default questionsGeo;
