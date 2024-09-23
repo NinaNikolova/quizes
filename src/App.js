@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import "./App.css";
 import questionsBel from "./questions-bel.js";
 import questionsMat from "./questions-mat.js";
@@ -131,6 +132,11 @@ function App() {
                     hasAnswered={hasAnswered}
                 />
             )}
+            {selectedQuiz === 'geo' ? (
+                <div>
+                    <a href='https://www.youtube.com/playlist?list=PLe1Bjmp9qmCa_rz_wV99REqVlwj2T3vbW'>Виж видеото тук</a>
+                </div>
+            ) : null}
         </div>
     );
 }
