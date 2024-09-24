@@ -35,7 +35,7 @@ const questionsKM = [
             { id: 0, text: "True", isCorrect: true },
             { id: 1, text: "Save", isCorrect: false },
             { id: 2, text: "False", isCorrect: false },
-            { id: 3, text: "File", isCorrect: false },
+            { id: 3, text: "Edit", isCorrect: false },
         ],
     },
     {
@@ -97,7 +97,7 @@ const questionsKM = [
     {
         text: "Коя от следните е търсеща машина?",
         options: [
-            { id: 0, text: "Bing", isCorrect: true },
+            { id: 0, text: "Google", isCorrect: true },
             { id: 1, text: "PowerPoint", isCorrect: false },
             { id: 2, text: "Windows Media Player", isCorrect: false },
             { id: 3, text: "Snapchat", isCorrect: false },
