@@ -13,7 +13,7 @@ import QuizSelector from "./components/QuizSelector.js";
 import { calculateGrade } from "./utils/calculateGrade.js";
 import FinalResults from "./components/FinalResults.js";
 import QuestionCard from "./components/QuestionCard.js";
-import { handleUserInteractionDa, handleUserInteractionNe, handleUserWin } from "./utils/sounds.js";
+import { handleUserInteractionDa, handleUserInteractionNe } from "./utils/sounds.js";
 
 
 function App() {
@@ -122,7 +122,6 @@ function App() {
                     wrongQuestions={wrongQuestions}
                     restartGame={restartGame}
                     calculateGrade={calculateGrade}
-                    handleUserWin={handleUserWin}
                 />
             ) : (
                 <QuestionCard

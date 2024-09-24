@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { handleUserWin } from '../utils/sounds';
 
 export default function FinalResults({ score, questions, wrongQuestions, restartGame, calculateGrade }) {
+
+    useEffect(() => {
+        handleUserWin();
+    }, []);
     return (
         <div className="final-results">
             <h1>Краен резултат</h1>
