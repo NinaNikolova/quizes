@@ -145,7 +145,13 @@ function App() {
                     <div className="video">
                         <a href='https://www.youtube.com/playlist?list=PLCiZTQRHm-4NJBVctr-r_K4X6vd8VMxO-'>Виж видеa по ЧП тук</a>
                     </div>
-                ) : null
+                ) : selectedQuiz === 'hist' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/watch?v=TtVQGmTdMgg&list=PLCiZTQRHm-4M6n-fhWwhDvV_gnug2ip3u' >Виж видеa по История тук</a>
+                    </div>
+
+                )
+                    : null
             }
         </div>
     );
