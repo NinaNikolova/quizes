@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 import "./App.css";
-import questionsBel from "./questions-bel.js";
-import questionsMat from "./questions-mat.js";
-import questionsHist from "./questions-hist.js";
-import questionsLit from "./questions-lit.js";
-import questionsGeo from "./questions-geo.js";
-import questionsChp from "./questions-chp.js";
-import questionsKM from "./questions-km.js";
+import questionsBel from "./data/questions-bel.js";
+import questionsMat from "./data/questions-mat.js";
+import questionsHist from "./data/questions-hist.js";
+import questionsLit from "./data/questions-lit.js";
+import questionsGeo from "./data/questions-geo.js";
+import questionsChp from "./data/questions-chp.js";
+import questionsKM from "./data/questions-km.js";
 import QuizSelector from "./components/QuizSelector.js";
 
 import { calculateGrade } from "./utils/calculateGrade.js";

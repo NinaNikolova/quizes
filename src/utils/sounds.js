@@ -1,11 +1,11 @@
-import da from "../da.m4a";
-import ne from "../ne.m4a";
-import win from "../win1.mp3";
-import two from "../two.m4a";
-import three from "../three.m4a";
-import four from "../four.m4a";
-import five from "../five.m4a";
-import six from "../six.m4a";
+import da from "../sounds/da.m4a";
+import ne from "../sounds/ne.m4a";
+import win from "../sounds/win1.mp3";
+import two from "../sounds/two.m4a";
+import three from "../sounds/three.m4a";
+import four from "../sounds/four.m4a";
+import five from "../sounds/five.m4a";
+import six from "../sounds/six.m4a";
 
 
 
