@@ -150,6 +150,21 @@ function App() {
                         <a href='https://www.youtube.com/watch?v=TtVQGmTdMgg&list=PLCiZTQRHm-4M6n-fhWwhDvV_gnug2ip3u' >Виж видеa по История тук</a>
                     </div>
 
+                ) : selectedQuiz === 'mat' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/playlist?list=PLCiZTQRHm-4MOGKEdE86sJkiFVHv7e4g_' >Виж видеa по Математика тук</a>
+                    </div>
+
+                ) : selectedQuiz === 'bel' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/playlist?list=PLCiZTQRHm-4OJCxawb4cZC2VyayM-irHL' >Виж видеa по Български език тук</a>
+                    </div>
+
+                ) : selectedQuiz === 'km' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/playlist?list=PLCiZTQRHm-4Ot4TFc_IoLZT_bJzcNzARE' >Виж видеa по КМИТ тук</a>
+                    </div>
+
                 )
                     : null
             }
