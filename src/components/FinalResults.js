@@ -23,6 +23,9 @@ export default function FinalResults({ score, questions, wrongQuestions, restart
                         {wrongQuestions.map((question, index) => (
                             <li key={index}>
                                 <strong>{question.text}</strong>
+                                {question.imageUrl && (
+                                    <img src={question.imageUrl} alt="Question illustration" className="question-image" />
+                                )}
                                 {question.options.map((option, index) => (
                                     <div key={option.id} style={{ color: option.isCorrect ? 'green' : 'red' }}>
                                         {index + 1}/{option.text}

@@ -6,7 +6,7 @@ const questionsGeo = [
             { id: 1, text: "проток близо до Южна Америка", isCorrect: false },
             { id: 2, text: "Америка", isCorrect: false },
             { id: 3, text: "водопада Виктория", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "В коя посока се движите, ако срещу вас е залязващото слънце?",
@@ -15,7 +15,7 @@ const questionsGeo = [
             { id: 1, text: "север", isCorrect: false },
             { id: 2, text: "запад", isCorrect: true },
             { id: 3, text: "юг", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Разстоянието между т. А и т. Б на географската карта е 5 см, а мащабът на картата е 1:5 000 000. Колко е действителното разстояние между т. А и т. Б?",
@@ -24,7 +24,7 @@ const questionsGeo = [
             { id: 1, text: "250 km", isCorrect: true },
             { id: 2, text: "25 km", isCorrect: false },
             { id: 3, text: "7500 km", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя външна обвивка на Земята обхваща Световния океан и водите на сушата?",
@@ -33,7 +33,7 @@ const questionsGeo = [
             { id: 1, text: "атмосферата", isCorrect: false },
             { id: 2, text: "хидросферата", isCorrect: true },
             { id: 3, text: "педосферата", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя от изброените форми на релефа е резултат от дейността на външните земни сили?",
@@ -42,7 +42,7 @@ const questionsGeo = [
             { id: 1, text: "планинска верига", isCorrect: false },
             { id: 2, text: "континент", isCorrect: false },
             { id: 3, text: "обширна равнина", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя форма на релефа е вдлъбната?",
@@ -51,7 +51,7 @@ const questionsGeo = [
             { id: 1, text: "равнина", isCorrect: false },
             { id: 2, text: "плато", isCorrect: false },
             { id: 3, text: "низина", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "От кое полезно изкопаемо НЕ се произвеждат горива?",
@@ -60,7 +60,7 @@ const questionsGeo = [
             { id: 1, text: "природен газ", isCorrect: false },
             { id: 2, text: "черни въглища", isCorrect: false },
             { id: 3, text: "медна руда", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Най-малко валежи падат:",
@@ -69,7 +69,7 @@ const questionsGeo = [
             { id: 1, text: "в пустините", isCorrect: true },
             { id: 2, text: "до океаните", isCorrect: false },
             { id: 3, text: "в планините", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "В кой климатичен пояс през цялата година влияят студени и сравнително сухи въздушни маси?",
@@ -78,7 +78,7 @@ const questionsGeo = [
             { id: 1, text: "тропичен", isCorrect: false },
             { id: 2, text: "умерен", isCorrect: false },
             { id: 3, text: "полярен", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя двойка „растение – животно“ е типична за зоната на екваториалните гори?",
@@ -87,7 +87,7 @@ const questionsGeo = [
             { id: 1, text: "сухи храсти – едногърба камила", isCorrect: false },
             { id: 2, text: "лишеи – северен елен", isCorrect: false },
             { id: 3, text: "ела – лос", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "От европеидната раса НЕ са:",
@@ -96,7 +96,7 @@ const questionsGeo = [
             { id: 1, text: "ескимосите", isCorrect: true },
             { id: 2, text: "турците", isCorrect: false },
             { id: 3, text: "индийците", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя религия е широко разпространена в Европа, Австралия, Северна и Южна Америка?",
@@ -105,7 +105,7 @@ const questionsGeo = [
             { id: 1, text: "юдаизмът", isCorrect: false },
             { id: 2, text: "будизмът", isCorrect: false },
             { id: 3, text: "християнството", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кой извършва първото околосветско пътешествие?",
@@ -114,7 +114,7 @@ const questionsGeo = [
             { id: 1, text: "Фернандо Магелан", isCorrect: true },
             { id: 2, text: "Васко да Гама", isCorrect: false },
             { id: 3, text: "Джеймс Кук", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Какви са последиците от въртенето на Земята около оста й?",
@@ -123,7 +123,7 @@ const questionsGeo = [
             { id: 2, text: "Изменение на климата", isCorrect: false },
             { id: 1, text: "Смяна на деня и нощта", isCorrect: true },
             { id: 3, text: "Гравитационни аномалии", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Какво е хидросфера?",
@@ -132,7 +132,7 @@ const questionsGeo = [
             { id: 2, text: "Земната кора", isCorrect: false },
             { id: 3, text: "Вътрешният слой на Земята", isCorrect: false },
             { id: 1, text: "Водната обвивка на Земята", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое от изброените е климатичен елемент?",
@@ -141,7 +141,7 @@ const questionsGeo = [
             { id: 1, text: "Ландшафт", isCorrect: false },
             { id: 2, text: "Пустиня", isCorrect: false },
             { id: 3, text: "Континент", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "За коя природна зона са характерни: високи температури, обилни дъждове, латеритни почви, палми, орхидеи, лиани, колибри, маймуни, слон, ягуар?",
@@ -150,7 +150,7 @@ const questionsGeo = [
             { id: 1, text: "Пустиня", isCorrect: false },
             { id: 2, text: "Степ", isCorrect: false },
             { id: 3, text: "Тундра", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "От каква раса е човек със следните външни белези: тъмна, твърда и къдрава коса; тъмни очи; широки ноздри; едри устни; тъмна кожа?",
@@ -160,7 +160,7 @@ const questionsGeo = [
             { id: 1, text: "Монголоидна", isCorrect: false },
 
             { id: 3, text: "Австралоидна", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
 
 
@@ -171,7 +171,7 @@ const questionsGeo = [
             { id: 1, text: "Нигер", isCorrect: false },
             { id: 2, text: "Нил", isCorrect: true },
             { id: 3, text: "Замбези", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Най-голямата пустиня на Земята е:",
@@ -180,7 +180,7 @@ const questionsGeo = [
             { id: 1, text: "Гоби, в Азия", isCorrect: false },
             { id: 2, text: "Антарктическа пустиня", isCorrect: false },
             { id: 3, text: "Арабска пустиня", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кои географски координати са на обект, разположен близо до Северния полюс и на изток от Гринуичкия меридиан?",
@@ -189,7 +189,7 @@ const questionsGeo = [
             { id: 1, text: "88° с.г.ш.  66° и.г.д.", isCorrect: true },
             { id: 2, text: "5° ю.г.ш. 35° з.г.д.", isCorrect: false },
             { id: 3, text: "90° ю.г.ш. 179° и.г.д.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "В кой климатичен пояс се сменят екваториални и тропични въздушни маси?",
@@ -198,7 +198,7 @@ const questionsGeo = [
             { id: 2, text: "Тропичен", isCorrect: false },
             { id: 3, text: "Субтропичен", isCorrect: false },
             { id: 1, text: "Субекваториален", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя дума е пропусната в текста? Природните зони са ивици с различен териториален обхват, редуващи се на север и юг от Екватора, които почти съвпадат с климатичните пояси, а външният им облик се определя в най-голяма степен от:",
@@ -207,7 +207,7 @@ const questionsGeo = [
             { id: 1, text: "Растителността", isCorrect: true },
             { id: 2, text: "Животинския свят", isCorrect: false },
             { id: 3, text: "Водите", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Отбележете вярнoтo твърдение:",
@@ -216,7 +216,7 @@ const questionsGeo = [
             { id: 1, text: "Градът е населено място, в което жителите му се занимават предимно с земеделска дейност.", isCorrect: false },
             { id: 2, text: "Типичен проблем за селата е пренаселеността, а за градовете – обезлюдяването.", isCorrect: false },
             { id: 3, text: "Средната гъстота на населението се изчислява, като се раздели площта на територията на броя на населението.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
 
     {
@@ -226,7 +226,7 @@ const questionsGeo = [
             { id: 1, text: "Пресича се от Екватора и Гринуичкия меридиан", isCorrect: false },
             { id: 2, text: "Територията е в четирите полукълба", isCorrect: false },
             { id: 3, text: "Пресича се от двете тропични окръжности", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя релефна форма в Африка, разположена близо до Екватора, е с голяма надморска височина?",
@@ -235,7 +235,7 @@ const questionsGeo = [
             { id: 1, text: "Заирска котловина", isCorrect: false },
             { id: 2, text: "Килиманджаро", isCorrect: true },
             { id: 3, text: "Сахара", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Ако сте геолог, къде бихте търсили полезни изкопаеми?",
@@ -244,7 +244,7 @@ const questionsGeo = [
             { id: 1, text: "Фосфорити – в Драконовите планини", isCorrect: false },
             { id: 2, text: "Нефт – в Килиманджаро", isCorrect: false },
             { id: 3, text: "Графит – в Гвинейския залив", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кои постоянни ветрове в Африка, които се движат от тропиците към Екватора, са североизточни – сухи и югоизточни – влажни?",
@@ -253,7 +253,7 @@ const questionsGeo = [
             { id: 2, text: "Циклони", isCorrect: false },
             { id: 3, text: "Урагани", isCorrect: false },
             { id: 0, text: "Пасати", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
 
 ];

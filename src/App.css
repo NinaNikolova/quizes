@@ -200,3 +200,10 @@ a:hover {
   color: gray;
   text-decoration: underline;
 }
+
+.question-image {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 10px 0;
+}

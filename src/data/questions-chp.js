@@ -6,7 +6,7 @@ const questionsChp = [
             { id: 1, text: "въртят се", isCorrect: false },
             { id: 2, text: "криволинейно", isCorrect: false },
             { id: 3, text: "праволинейно", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Ако карате велосипед по хоризонтален път и престанете да въртите педалите, движението се забавя, защото:",
@@ -15,7 +15,7 @@ const questionsChp = [
             { id: 1, text: "не действат никакви сили", isCorrect: false },
             { id: 2, text: "действат сили на земно притегляне", isCorrect: false },
             { id: 3, text: "не действат сили на земно притегляне", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Върху стоманено парче ламарина са поставени железен пирон и стъклено топче. Какво ще се наблюдава, ако доближите до тях магнит?",
@@ -24,7 +24,7 @@ const questionsChp = [
             { id: 1, text: "Магнитът ще привлече само железния пирон.", isCorrect: false },
             { id: 2, text: "Магнитът ще привлече само стоманената ламарина.", isCorrect: false },
             { id: 3, text: "Магнитът ще привлече железния пирон и стоманената ламарина.", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "В съд с вода са пуснати две дървени клечки и три железни пирончета. Колко тела ще плават на повърхността на водата?",
@@ -33,7 +33,7 @@ const questionsChp = [
             { id: 1, text: "2", isCorrect: true },
             { id: 2, text: "3", isCorrect: false },
             { id: 3, text: "5", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Електричната енергия НЕ може да се превърне в:",
@@ -42,7 +42,7 @@ const questionsChp = [
             { id: 1, text: "светлинна енергия", isCorrect: false },
             { id: 2, text: "енергия на горивата", isCorrect: true },
             { id: 3, text: "енергия на движението", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое твърдение НЕ е вярно?",
@@ -51,7 +51,7 @@ const questionsChp = [
             { id: 1, text: "Физичните свойства са свързани с промяна на веществата.", isCorrect: true },
             { id: 2, text: "Веществата имат постоянен състав.", isCorrect: false },
             { id: 3, text: "Свойствата на веществата зависят от състава и строежа им.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое е вярното твърдение? Смесите:",
@@ -60,7 +60,7 @@ const questionsChp = [
             { id: 1, text: "могат да бъдат в твърдо, течно и газообразно състояние", isCorrect: true },
             { id: 2, text: "между въздух и вода са винаги еднородни", isCorrect: false },
             { id: 3, text: "не могат да променят свойствата си", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое е вярното твърдение?",
@@ -69,7 +69,7 @@ const questionsChp = [
             { id: 1, text: "Веществата имат променлив състав, а смесите имат постоянен състав.", isCorrect: false },
             { id: 2, text: "Веществата и смесите имат постоянен състав.", isCorrect: false },
             { id: 3, text: "Веществата и смесите имат променлив състав.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "За кой процес се отнасят следващите характеристики? Извършва се във всички организми. Свързан е с обмяната на вещества между организма и околната среда. Доставя градивен материал на клетките.",
@@ -78,7 +78,7 @@ const questionsChp = [
             { id: 1, text: "дифузия", isCorrect: false },
             { id: 2, text: "хранене", isCorrect: true },
             { id: 3, text: "отделяне", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Какво е общото между всички жизнени процеси?",
@@ -87,7 +87,7 @@ const questionsChp = [
             { id: 1, text: "Протичат в живите организми.", isCorrect: true },
             { id: 2, text: "Доставят енергия на клетките.", isCorrect: false },
             { id: 3, text: "Освобождават клетките от непотребни вещества.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Ледена висулка се откъсва от покрива на сграда и пада надолу към земната повърхност. Какво движение извършва висулката?",
@@ -96,7 +96,7 @@ const questionsChp = [
             { id: 1, text: "праволинейно", isCorrect: true },
             { id: 2, text: "криволинейно", isCorrect: false },
             { id: 3, text: "движи се по окръжност", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Защо дъждовните капки падат надолу към земята?",
@@ -105,7 +105,7 @@ const questionsChp = [
             { id: 1, text: "Не им действат никакви сили.", isCorrect: false },
             { id: 2, text: "Действат им сили на земно притегляне.", isCorrect: true },
             { id: 3, text: "Не им действат сили на земно притегляне.", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Ако в съд с вода се пуснат железен пирон и дървена клечка, ще се наблюдава, че:",
@@ -114,7 +114,7 @@ const questionsChp = [
             { id: 1, text: "железният пирон плава, а дървената клечка потъва", isCorrect: false },
             { id: 2, text: "и двете тела потъват", isCorrect: false },
             { id: 3, text: "и двете тела плават", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Енергията на слънчевите лъчи се превръща в слънчевите батерии в:",
@@ -123,7 +123,7 @@ const questionsChp = [
             { id: 1, text: "енергия на горивата", isCorrect: false },
             { id: 2, text: "енергия на движението", isCorrect: false },
             { id: 3, text: "електрична енергия", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кой от посочените примери НЕ е метод за разделяне на смеси?",
@@ -132,7 +132,7 @@ const questionsChp = [
             { id: 1, text: "филтриране", isCorrect: false },
             { id: 2, text: "изпарение", isCorrect: false },
             { id: 3, text: "утаяване", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое от изброените свойства НЕ е характерно за водните разтвори? Водните разтвори може да:",
@@ -141,7 +141,7 @@ const questionsChp = [
             { id: 1, text: "разтварят само други течности", isCorrect: true },
             { id: 2, text: "са наситени и ненаситени", isCorrect: false },
             { id: 3, text: "са разпространени широко в природата", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое от следните вещества е практически неразтворимо?",
@@ -150,7 +150,7 @@ const questionsChp = [
             { id: 1, text: "кислород", isCorrect: false },
             { id: 2, text: "варовик", isCorrect: true },
             { id: 3, text: "алкохол", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Смесите НЕ могат да бъдат:",
@@ -159,7 +159,7 @@ const questionsChp = [
             { id: 1, text: "разнородни", isCorrect: true },
             { id: 2, text: "нееднородни", isCorrect: false },
             { id: 3, text: "твърди", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "За кой процес се отнасят следващите характеристики? • Извършва се във всички организми. • Свързан е с обмяната на вещества между организма и околната среда. • Доставя на клетките кислород.",
@@ -168,7 +168,7 @@ const questionsChp = [
             { id: 1, text: "дифузия", isCorrect: false },
             { id: 2, text: "хранене", isCorrect: false },
             { id: 3, text: "отделяне", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Какво е общото между храненето, дишането и отделянето?",
@@ -177,7 +177,7 @@ const questionsChp = [
             { id: 1, text: "Изнасят от клетките въглероден диоксид.", isCorrect: false },
             { id: 2, text: "Протичат само в неживата природа.", isCorrect: false },
             { id: 3, text: "Протичат във всички живи организми.", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Определете вярното съответствие.",
@@ -186,7 +186,7 @@ const questionsChp = [
             { id: 1, text: "растения – ларинкс", isCorrect: false },
             { id: 2, text: "животни – стомах", isCorrect: true },
             { id: 3, text: "човек – хриле", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Какъв път изминава влак за време t = 2 h при движение със скорост v = 100 h km?",
@@ -195,7 +195,7 @@ const questionsChp = [
             { id: 1, text: "s = 102 km", isCorrect: false },
             { id: 2, text: "s = 98 km", isCorrect: false },
             { id: 3, text: "s = 200 km", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Килограмът е единица за:",
@@ -204,7 +204,7 @@ const questionsChp = [
             { id: 1, text: "маса", isCorrect: true },
             { id: 2, text: "тегло", isCorrect: false },
             { id: 3, text: "налягане", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Човек със ски потъва по-малко в снега, отколкото когато стъпва с обувки, защото:",
@@ -213,7 +213,7 @@ const questionsChp = [
             { id: 1, text: "натискът намалява", isCorrect: false },
             { id: 2, text: "натискът действа върху по-малка площ", isCorrect: false },
             { id: 3, text: "натискът действа върху по-голяма площ", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "За налягането на водата е вярно, че:",
@@ -222,7 +222,7 @@ const questionsChp = [
             { id: 1, text: "е еднакво на всякаква дълбочина", isCorrect: false },
             { id: 2, text: "на дъното на водния басейн е най-голямо", isCorrect: true },
             { id: 3, text: "нараства с намаляване на дълбочината", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кой от газовете поддържа горенето?",
@@ -231,7 +231,7 @@ const questionsChp = [
             { id: 1, text: "азот", isCorrect: false },
             { id: 2, text: "кислород", isCorrect: true },
             { id: 3, text: "серен диоксид", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Електричният ток в металните проводници е насочено движение на:",
@@ -240,7 +240,7 @@ const questionsChp = [
             { id: 1, text: "електрони", isCorrect: true },
             { id: 2, text: "положителни йони", isCorrect: false },
             { id: 3, text: "отрицателни йони", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя е липсващата дума или израз в изречението: Химичните елементи са съставни части на простите вещества и на ................... .",
@@ -249,7 +249,7 @@ const questionsChp = [
             { id: 1, text: "атомните ядра", isCorrect: false },
             { id: 2, text: "протоните", isCorrect: false },
             { id: 3, text: "химичните съединения", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Органи за хранене при растенията са:",
@@ -258,7 +258,7 @@ const questionsChp = [
             { id: 1, text: "цветовете", isCorrect: false },
             { id: 2, text: "корените", isCorrect: false },
             { id: 3, text: "листата", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кой от посочените газове е основна причина за парниковия ефект?",
@@ -267,7 +267,7 @@ const questionsChp = [
             { id: 1, text: "серен диоксид", isCorrect: false },
             { id: 2, text: "въглероден диоксид", isCorrect: true },
             { id: 3, text: "азотни оксиди", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое водно животно диша с бял дроб?",
@@ -276,7 +276,7 @@ const questionsChp = [
             { id: 1, text: "кит", isCorrect: true },
             { id: 2, text: "мида", isCorrect: false },
             { id: 3, text: "шаран", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое равенство е вярно?",
@@ -285,7 +285,7 @@ const questionsChp = [
             { id: 1, text: " 0,016 л = 160 мл", isCorrect: false },
             { id: 2, text: "78 мл = 0,078 л", isCorrect: true },
             { id: 3, text: "1490 мл = 14,9 л", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Като енергиен източник НЕ се използва:",
@@ -294,7 +294,7 @@ const questionsChp = [
             { id: 1, text: "слънцето", isCorrect: false },
             { id: 2, text: "вятърът", isCorrect: false },
             { id: 3, text: "желязната руда", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя от следните промени е химична?",
@@ -303,7 +303,7 @@ const questionsChp = [
             { id: 1, text: "кондензация на водни пари", isCorrect: false },
             { id: 2, text: "топене на сняг", isCorrect: false },
             { id: 3, text: "горене на бензин", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "В кой ред са изброени само органи от храносмилателната система?",
@@ -312,7 +312,7 @@ const questionsChp = [
             { id: 1, text: "стомах, тънко черво", isCorrect: true },
             { id: 2, text: "дебело черво, бъбреци", isCorrect: false },
             { id: 3, text: "тънко черво, бъбреци", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Кое вещество се отделя при процеса фотосинтеза?",
@@ -321,7 +321,7 @@ const questionsChp = [
             { id: 1, text: "кислород", isCorrect: true },
             { id: 2, text: "водород", isCorrect: false },
             { id: 3, text: "въглероден диоксид", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
     {
         text: "За кой тип размножаване са необходими двама родители?",
@@ -330,7 +330,7 @@ const questionsChp = [
             { id: 1, text: "безполово", isCorrect: false },
             { id: 2, text: "вегетативно", isCorrect: false },
             { id: 3, text: "полово", isCorrect: true },
-        ],
+        ], imageUrl: null
     },
     {
         text: "Коя е пропуснатата дума? Във въздуха се съдържат 78% ............, 21% кислород и други примеси.",
@@ -339,7 +339,7 @@ const questionsChp = [
             { id: 1, text: "водород", isCorrect: false },
             { id: 2, text: "водни пари", isCorrect: false },
             { id: 3, text: "въглероден диоксид", isCorrect: false },
-        ],
+        ], imageUrl: null
     },
 ];
 

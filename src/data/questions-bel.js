@@ -7,6 +7,7 @@ const questionsBel = [
             { id: 2, text: "малък, огромен", isCorrect: false },
             { id: 3, text: "умен, отзивчив", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "На кой ред думите са антоними?",
@@ -16,6 +17,7 @@ const questionsBel = [
             { id: 2, text: "сърцат, сърдечен", isCorrect: false },
             { id: 3, text: "смел, малодушен", isCorrect: true },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е сродна на думата водя?",
@@ -25,6 +27,7 @@ const questionsBel = [
             { id: 2, text: "наводнение", isCorrect: false },
             { id: 3, text: "воднист", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение е употребена глаголна форма за минало свършено време?",
@@ -34,6 +37,7 @@ const questionsBel = [
             { id: 2, text: "Туристите търсеха свободни стаи.", isCorrect: false },
             { id: 3, text: "Всички свиреха с въодушевление.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение е употребена глаголна форма за минало несвършено време?",
@@ -43,6 +47,7 @@ const questionsBel = [
             { id: 2, text: "Всяко лято през юли заминаваме на море.", isCorrect: false },
             { id: 3, text: "Случката разсмя всички мои приятели.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое от изреченията е употребена глаголна форма за бъдеще време?",
@@ -52,6 +57,7 @@ const questionsBel = [
             { id: 2, text: "Делегацията пристига довечера.", isCorrect: false },
             { id: 3, text: "След малко тръгвам към гарата.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "На кой ред думата е НЕПРАВИЛНО написана?",
@@ -61,6 +67,7 @@ const questionsBel = [
             { id: 2, text: "бъркам", isCorrect: false },
             { id: 3, text: "мърдам", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение думата път е подлог?",
@@ -70,6 +77,7 @@ const questionsBel = [
             { id: 2, text: "Пред очите ни се белееше тесен коларски път.", isCorrect: true },
             { id: 3, text: "Вървяхме почти част по тесния коларски път.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение има определение?",
@@ -79,6 +87,7 @@ const questionsBel = [
             { id: 2, text: "Брегът се губеше зад скалата.", isCorrect: false },
             { id: 3, text: "Слънцето огряваше брега.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение е допусната грешка при членуване?",
@@ -88,6 +97,7 @@ const questionsBel = [
             { id: 2, text: "Това е най-добрия състезател от нашия отбор.", isCorrect: true },
             { id: 3, text: "За нашия отбор е чест да има такъв добър състезател.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое изречение е употребено минало свършено деятелно причастие?",
@@ -97,6 +107,7 @@ const questionsBel = [
             { id: 2, text: " Звездата светнала над планината.", isCorrect: true },
             { id: 3, text: "По цял ден мислел за нея.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "На кой ред думата е НЕПРАВИЛНО написана?",
@@ -106,6 +117,7 @@ const questionsBel = [
             { id: 2, text: "гъвкав", isCorrect: true },
             { id: 3, text: "казал", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "На кой ред думата е НЕПРАВИЛНО написана?",
@@ -115,6 +127,7 @@ const questionsBel = [
             { id: 2, text: "могъл", isCorrect: false },
             { id: 3, text: "покойте", isCorrect: true },
         ],
+        imageUrl: null
     },
     {
         text: "На кой ред думата е НЕПРАВИЛНО написана?",
@@ -124,6 +137,7 @@ const questionsBel = [
             { id: 2, text: "очакваше", isCorrect: false },
             { id: 3, text: "истината", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В коя от думите има правописна грешка?",
@@ -133,6 +147,7 @@ const questionsBel = [
             { id: 2, text: "мълча", isCorrect: false },
             { id: 3, text: "гадая", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В коя от думите има правописна грешка?",
@@ -142,6 +157,7 @@ const questionsBel = [
             { id: 2, text: "смотен", isCorrect: true },
             { id: 3, text: "изморен", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В коя от думите има правописна грешка?",
@@ -151,6 +167,7 @@ const questionsBel = [
             { id: 2, text: "умножавам", isCorrect: false },
             { id: 3, text: "умора", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В коя от думите има правописна грешка?",
@@ -160,6 +177,7 @@ const questionsBel = [
             { id: 2, text: "сироп", isCorrect: false },
             { id: 3, text: "корап", isCorrect: true },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е съществително име?",
@@ -169,6 +187,7 @@ const questionsBel = [
             { id: 2, text: "оцветявам", isCorrect: false },
             { id: 3, text: "цветно", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е прилагателно име?",
@@ -178,6 +197,7 @@ const questionsBel = [
             { id: 2, text: "красив", isCorrect: true },
             { id: 3, text: "красавица", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е глагол?",
@@ -187,6 +207,7 @@ const questionsBel = [
             { id: 2, text: "беглец", isCorrect: false },
             { id: 3, text: "бягам", isCorrect: true },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е числително редно име?",
@@ -196,6 +217,7 @@ const questionsBel = [
             { id: 2, text: "първенство", isCorrect: false },
             { id: 3, text: "един", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кое от изреченията думата бързо е наречие?",
@@ -205,6 +227,7 @@ const questionsBel = [
             { id: 2, text: "В гората шумоли бързо поточе.", isCorrect: false },
             { id: 3, text: "Той има най-бързото куче.", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите НЕ е синоним на останалите?",
@@ -214,6 +237,7 @@ const questionsBel = [
             { id: 2, text: "добър", isCorrect: true },
             { id: 3, text: "безстрашен", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е без представка?",
@@ -223,6 +247,7 @@ const questionsBel = [
             { id: 2, text: "свързвам", isCorrect: false },
             { id: 3, text: "сбор", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "Коя от думите е без наставка?",
@@ -232,6 +257,7 @@ const questionsBel = [
             { id: 2, text: "млекар", isCorrect: false },
             { id: 3, text: "гайдар", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кой ред глаголът пея е в минало свършено време?",
@@ -241,6 +267,7 @@ const questionsBel = [
             { id: 2, text: "пях", isCorrect: true },
             { id: 3, text: "пеех", isCorrect: false },
         ],
+        imageUrl: null
     },
     {
         text: "В кой ред глаголът играя е в минало несвършено време?",
@@ -250,6 +277,7 @@ const questionsBel = [
             { id: 2, text: "играх", isCorrect: false },
             { id: 3, text: "играех", isCorrect: true },
         ],
+        imageUrl: null
     },
 ];
 

@@ -19,7 +19,10 @@ export default function QuestionCard({ currentQuestion, questions, questionColor
             <h3 className="question-text" style={{ color: questionColors[currentQuestion % questionColors.length] }}>
                 {questions[currentQuestion].text}
             </h3>
-
+            <span>{questions[currentQuestion].imageUrl && (
+                <img src={questions[currentQuestion].imageUrl} alt="Question illustration" className="question-image" />
+            )}
+            </span>
             <ul>
                 {questions[currentQuestion].options.map((option) => (
                     <li
