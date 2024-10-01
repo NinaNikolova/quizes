@@ -264,6 +264,77 @@ const questionsHist = [
             { id: 2, text: "робите", isCorrect: true },
             { id: 3, text: "съюзниците", isCorrect: false },
         ], imageUrl: null
+    },
+    {
+        "text": "Кой е показан на скулптурата -бог на плодородието, лозарството, гроздобера, виното, веселието и театъра?",
+        "options": [
+            { "id": 0, "text": "Зевс", "isCorrect": false },
+            { "id": 1, "text": "Хадес", "isCorrect": false },
+            { "id": 2, "text": "Аполон", "isCorrect": false },
+            { "id": 3, "text": "Дионис", "isCorrect": true }
+        ],
+        "imageUrl": 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Dionysos_Louvre_Ma87_n2.jpg/800px-Dionysos_Louvre_Ma87_n2.jpg'
+    },
+    {
+        "text": "За кой древногръцки бог се отнася описанието: Той бил мрачният и тайствен брат на Зевс и управлявал Подземното царство, където бродели сенките на умрелите. Вратата на царството охранявало свирепото триглаво куче Цербер.",
+        "options": [
+            { "id": 0, "text": "Хадес", "isCorrect": true },
+            { "id": 1, "text": "Аполон", "isCorrect": false },
+            { "id": 2, "text": "Хефест", "isCorrect": false },
+            { "id": 3, "text": "Хор", "isCorrect": false }
+        ],
+        "imageUrl": 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7G3lkXKITRRqOd0z2WlOy_P0bV39FJtX-ZA&s'
+    },
+    {
+        "text": "Кой е древногръцкият бог, който е цар на небето и поразяващата мълния?",
+        "options": [
+            { "id": 0, "text": "Аполон", "isCorrect": false },
+            { "id": 1, "text": "Зевс", "isCorrect": true },
+            { "id": 2, "text": "Хефест", "isCorrect": false },
+            { "id": 3, "text": "Хермес", "isCorrect": false }
+        ],
+        "imageUrl": 'https://atlas-content-cdn.pixelsquid.com/stock-images/zeus-statue-J38ZP23-600.jpg'
+    },
+    {
+        "text": "Героят Язон е известен с.....",
+        "options": [
+            { "id": 0, "text": "Убиването на Немейския лъв", "isCorrect": false },
+            { "id": 1, "text": "Взимането на Златното руно", "isCorrect": true },
+            { "id": 2, "text": "Победата над Минотавъра", "isCorrect": false },
+            { "id": 3, "text": "Ослепяването на Полифем", "isCorrect": false }
+        ],
+        "imageUrl": 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Jason_Golden_Fleece_Altemps_Inv8647.jpg/1024px-Jason_Golden_Fleece_Altemps_Inv8647.jpg'
+    },
+    {
+        "text": "Кой е древногръцкият бог на войната?",
+        "options": [
+            { "id": 0, "text": "Дионис", "isCorrect": false },
+            { "id": 1, "text": "Аполон", "isCorrect": false },
+            { "id": 2, "text": "Хефест", "isCorrect": false },
+            { "id": 3, "text": "Арес", "isCorrect": true }
+        ],
+        "imageUrl": 'https://upload.wikimedia.org/wikipedia/commons/a/a1/%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg'
+    },
+
+    {
+        "text": "Коя е древногръцката богиня на домашното огнище?",
+        "options": [
+            { "id": 0, "text": "Афродита", "isCorrect": false },
+            { "id": 1, "text": "Хера", "isCorrect": false },
+            { "id": 2, "text": "Хестия", "isCorrect": true },
+            { "id": 3, "text": "Атина", "isCorrect": false }
+        ],
+        "imageUrl": 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hestia_-_Wellesley_College_-_DSC09634.JPG/1200px-Hestia_-_Wellesley_College_-_DSC09634.JPG'
+    },
+    {
+        "text": "Коя богинята на мъдростта, занаятите и военните стратегии...?",
+        "options": [
+            { "id": 0, "text": "Деметра", "isCorrect": false },
+            { "id": 1, "text": "Афродита", "isCorrect": false },
+            { "id": 2, "text": "Артемида", "isCorrect": false },
+            { "id": 3, "text": "Атина", "isCorrect": true }
+        ],
+        "imageUrl": 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Athena_Varvakeion_-_MANA_-_Fidias.jpg'
     }
 ];
 
