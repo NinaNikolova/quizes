@@ -154,113 +154,134 @@ const questionsKM = [
     {
         text: "Кое от устройствата е изходно?",
         options: [
-            { "id": 0, text: "Монитор", isCorrect: true },
-            { "id": 1, text: "Скенер", isCorrect: false },
-            { "id": 2, text: "Джойстик", isCorrect: false },
-            { "id": 3, text: "Клавиатура", isCorrect: false }
+            { id: 0, text: "Монитор", isCorrect: true },
+            { id: 1, text: "Скенер", isCorrect: false },
+            { id: 2, text: "Джойстик", isCorrect: false },
+            { id: 3, text: "Клавиатура", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "Думата Bold се използва за означаване на:",
         options: [
-            { "id": 0, text: "Вида на шрифта", isCorrect: false },
-            { "id": 1, text: "Наклон на шрифта", isCorrect: false },
-            { "id": 2, text: "Удебеляване на шрифта", isCorrect: true },
-            { "id": 3, text: "Размер на шрифта", isCorrect: false }
+            { id: 0, text: "Вида на шрифта", isCorrect: false },
+            { id: 1, text: "Наклон на шрифта", isCorrect: false },
+            { id: 2, text: "Удебеляване на шрифта", isCorrect: true },
+            { id: 3, text: "Размер на шрифта", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "Чрез коя команда се вмъква изображение в презентация?",
         options: [
-            { "id": 0, text: "View/Image", isCorrect: false },
-            { "id": 1, text: "Insert/Picture", isCorrect: true },
-            { "id": 2, text: "File/Open", isCorrect: false },
-            { "id": 3, text: "Edit/Picture", isCorrect: false }
+            { id: 0, text: "View/Image", isCorrect: false },
+            { id: 1, text: "Insert/Picture", isCorrect: true },
+            { id: 2, text: "File/Open", isCorrect: false },
+            { id: 3, text: "Edit/Picture", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "Посочете кое от следните е функция на операционната система:",
         options: [
-            { "id": 0, text: "Обработва графични изображения", isCorrect: false },
-            { "id": 1, text: "Обработва аудио файлове", isCorrect: false },
-            { "id": 2, text: "Зарежда програмите в оперативната памет на компютъра", isCorrect: true },
-            { "id": 3, text: "Нито едно от посочените", isCorrect: false }
+            { id: 0, text: "Обработва графични изображения", isCorrect: false },
+            { id: 1, text: "Обработва аудио файлове", isCorrect: false },
+            { id: 2, text: "Зарежда програмите в оперативната памет на компютъра", isCorrect: true },
+            { id: 3, text: "Нито едно от посочените", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "Интернет е:",
         options: [
-            { "id": 0, text: "Световна политическа организация", isCorrect: false },
-            { "id": 1, text: "Рекламна агенция", isCorrect: false },
-            { "id": 2, text: "Множество от компютърни мрежи, свързани помежду си, които предлагат различни услуги", isCorrect: true },
-            { "id": 3, text: "Локална мрежа, в която компютрите поделят свои ресурси", isCorrect: false }
+            { id: 0, text: "Световна политическа организация", isCorrect: false },
+            { id: 1, text: "Рекламна агенция", isCorrect: false },
+            { id: 2, text: "Множество от компютърни мрежи, свързани помежду си, които предлагат различни услуги", isCorrect: true },
+            { id: 3, text: "Локална мрежа, в която компютрите поделят свои ресурси", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "При отпечатване на електронна таблица ще се отпечатат:",
         options: [
-            { "id": 0, text: "Само диаграмите", isCorrect: false },
-            { "id": 1, text: "Само рамките на клетките", isCorrect: false },
-            { "id": 2, text: "Само клетките в които има текст", isCorrect: false },
-            { "id": 3, text: "Въведените стойности и зададените рамки", isCorrect: true }
+            { id: 0, text: "Само диаграмите", isCorrect: false },
+            { id: 1, text: "Само рамките на клетките", isCorrect: false },
+            { id: 2, text: "Само клетките в които има текст", isCorrect: false },
+            { id: 3, text: "Въведените стойности и зададените рамки", isCorrect: true }
         ],
         imageUrl: null
     },
     {
         text: "Какво е разширението на файл с презентация, създадена с MS PowerPoint?",
         options: [
-            { "id": 0, text: ".bmp", isCorrect: false },
-            { "id": 1, text: ".doc", isCorrect: false },
-            { "id": 2, text: ".xls", isCorrect: false },
-            { "id": 3, text: ".pptx", isCorrect: true }
+            { id: 0, text: ".bmp", isCorrect: false },
+            { id: 1, text: ".doc", isCorrect: false },
+            { id: 2, text: ".xls", isCorrect: false },
+            { id: 3, text: ".pptx", isCorrect: true }
         ],
         imageUrl: null
     },
     {
         text: "В клетките на електронна таблица са въведени числа. Тогава формулата =(C4*F4) дава следния резултат:",
         options: [
-            { "id": 0, text: "Сумата от съдържанието на клетките C4, D4, E4 и F4", isCorrect: false },
-            { "id": 1, text: "Произведението от съдържанията на C4 и F4", isCorrect: true },
-            { "id": 2, text: "Текста C4F4", isCorrect: false },
-            { "id": 3, text: "Текста C4+F4", isCorrect: false }
+            { id: 0, text: "Сумата от съдържанието на клетките C4, D4, E4 и F4", isCorrect: false },
+            { id: 1, text: "Произведението от съдържанията на C4 и F4", isCorrect: true },
+            { id: 2, text: "Текста C4F4", isCorrect: false },
+            { id: 3, text: "Текста C4+F4", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "Какво означава Слайдшоу?",
         options: [
-            { "id": 0, text: "Задаване на преходи между слайдовете", isCorrect: false },
-            { "id": 1, text: "Разглеждане на презентацията", isCorrect: true },
-            { "id": 2, text: "Задаване на анимацията на обектите", isCorrect: false },
-            { "id": 3, text: "Проектиране на презентацията", isCorrect: false }
+            { id: 0, text: "Задаване на преходи между слайдовете", isCorrect: false },
+            { id: 1, text: "Разглеждане на презентацията", isCorrect: true },
+            { id: 2, text: "Задаване на анимацията на обектите", isCorrect: false },
+            { id: 3, text: "Проектиране на презентацията", isCorrect: false }
         ],
         imageUrl: null
     },
     {
         text: "При първоначално зареждане, работната книга на MS Excel се състои от:",
         options: [
-            { "id": 0, text: "Документ с кръгови диаграми", isCorrect: false },
-            { "id": 1, text: "Документ с хистограми", isCorrect: false },
-            { "id": 2, text: "Документ с формули", isCorrect: false },
-            { "id": 3, text: "Един или няколко празни работни листа", isCorrect: true }
+            { id: 0, text: "Документ с кръгови диаграми", isCorrect: false },
+            { id: 1, text: "Документ с хистограми", isCorrect: false },
+            { id: 2, text: "Документ с формули", isCorrect: false },
+            { id: 3, text: "Един или няколко празни работни листа", isCorrect: true }
         ],
         imageUrl: null
     },
     {
         text: "Понятието хардуер (hardware) означава:",
         options: [
-            { "id": 0, text: "Операционната система", isCorrect: false },
-            { "id": 1, text: "Цялата компютърна система", isCorrect: false },
-            { "id": 2, text: "Апаратната част на компютъра", isCorrect: true },
-            { "id": 3, text: "Програмната част на компютърната система", isCorrect: false }
+            { id: 0, text: "Операционната система", isCorrect: false },
+            { id: 1, text: "Цялата компютърна система", isCorrect: false },
+            { id: 2, text: "Апаратната част на компютъра", isCorrect: true },
+            { id: 3, text: "Програмната част на компютърната система", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Как може да се съхрани костюм на герой (спрайт) като png изображение от визуалната среда Scratch?",
+        options: [
+            { id: 0, text: "маркираме костюма в графичния редактор->експорт", isCorrect: false },
+            { id: 1, text: "десен бутон на спрайта/експорт", isCorrect: false },
+            { id: 2, text: "десен бутон на спрайта/Save image as...", isCorrect: false },
+            { id: 3, text: "маркираме изображението на костюма в графичния редактор->десен бутон/Save image as...", isCorrect: true }
+        ],
+        imageUrl: 'https://bg.izzi.digital/DOS/196075/datastore/15/publication/196075/pictures/2022/01/31/1643643476_2022-01-31_17-36-42.png'
+    },
+    {
+        text: "Посочете кои са основните елементи на електронна таблица:",
+        options: [
+            { id: 0, text: "клетка, параграф, изречение", isCorrect: false },
+            { id: 1, text: "клетка, колона, ред", isCorrect: true },
+            { id: 2, text: "междуредие, параграф, отстъп", isCorrect: false },
+            { id: 3, text: "шрифт, цвят, големина", isCorrect: false }
         ],
         imageUrl: null
     }
+
 
 
 ];
