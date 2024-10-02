@@ -280,7 +280,66 @@ const questionsKM = [
             { id: 3, text: "шрифт, цвят, големина", isCorrect: false }
         ],
         imageUrl: null
+    },
+    {
+        text: "Изображение, което се състои от точки (пиксели), подредени в двумерна правоъгълна решетка, се нарича:",
+        options: [
+            { id: 0, text: "графичен формат", isCorrect: false },
+            { id: 1, text: "растерна графика", isCorrect: true },
+            { id: 2, text: "прозрачност", isCorrect: false },
+            { id: 3, text: "векторна графика", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "С функцията AVERAGE се изчислява:",
+        options: [
+            { id: 0, text: "максималната стойност", isCorrect: false },
+            { id: 1, text: "общата стойност", isCorrect: false },
+            { id: 2, text: "средноаритметичната стойност", isCorrect: true },
+            { id: 3, text: "минималната стойност", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Група от команди, изпълнявани в определен ред, на която е зададено име, се нарича:",
+        options: [
+            { id: 0, text: "функция", isCorrect: true },
+            { id: 1, text: "параметър", isCorrect: false },
+            { id: 2, text: "оператор", isCorrect: false },
+            { id: 3, text: "библиотека", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Коя от посочените програми НЕ предоставя услуги за комуникация в реално време?",
+        options: [
+            { id: 0, text: "Viber", isCorrect: false },
+            { id: 1, text: "WhatsApp", isCorrect: false },
+            { id: 2, text: "Skype", isCorrect: false },
+            { id: 3, text: "Adobe Photoshop", isCorrect: true }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Контраст е:",
+        options: [
+            { id: 0, text: "разлика между осветеността и яркостта на отделни елементи на изображение или между две изображения", isCorrect: true },
+            { id: 1, text: "характеристика на цветовете на изображение", isCorrect: false },
+            { id: 2, text: "разположение на изображение", isCorrect: false },
+            { id: 3, text: "силата на светене на елементите на изображение", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Рутерът е устройствo, което свързва две или повече компютърни мрежи и насочва данните към тази от тях, за която са предназначени?",
+        options: [
+            { id: 0, text: "да", isCorrect: true },
+            { id: 1, text: "не", isCorrect: false }
+        ],
+        imageUrl: 'https://w7.pngwing.com/pngs/75/701/png-transparent-black-modem-router-wireless-router-wi-fi-modem-icons-miscellaneous-electronics-routing-domain-thumbnail.png'
     }
+
 
 
 
