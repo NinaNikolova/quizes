@@ -53,10 +53,10 @@ li:hover {
 
 .final-results {
   /* Center the div  */
-  margin: 0 auto;
 
+  margin: 0 auto;
   /* Dimensions  */
-  width: 50%;
+  width: 90%;
   /* Can be in percentage also. */
   height: auto;
   margin-top: 64px;
@@ -202,8 +202,8 @@ a:hover {
 }
 
 .question-image {
-  width: 160px;
-  height: 160px;
+  width: 90%;
+  max-height: 160px;
   object-fit: contain;
   margin: 10px 0;
 }
