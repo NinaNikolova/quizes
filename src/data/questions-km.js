@@ -338,6 +338,56 @@ const questionsKM = [
             { id: 1, text: "не", isCorrect: false }
         ],
         imageUrl: 'https://w7.pngwing.com/pngs/75/701/png-transparent-black-modem-router-wireless-router-wi-fi-modem-icons-miscellaneous-electronics-routing-domain-thumbnail.png'
+    },
+    {
+        text: "Какво представлява Scratch?",
+        options: [
+            { id: 0, text: "Игрова конзола", isCorrect: false },
+            { id: 1, text: "Програма за рисуване", isCorrect: false },
+            { id: 2, text: "Език за програмиране с блокове", isCorrect: true },
+            { id: 3, text: "Интернет браузър", isCorrect: false }
+        ],
+        imageUrl: 'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/02wchouritvxqgixxoeagap-2.fit-scale.size-760x427.v1569482197_ver_1.jpg'
+    },
+    {
+        text: "Какво можем да създадем в Scratch?",
+        options: [
+            { id: 0, text: "Само текстови документи", isCorrect: false },
+            { id: 1, text: "Анимации и игри", isCorrect: true },
+            { id: 2, text: "Таблици с данни", isCorrect: false },
+            { id: 3, text: "Музикални плейлисти", isCorrect: false }
+        ],
+        imageUrl: 'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/02wchouritvxqgixxoeagap-2.fit-scale.size-760x427.v1569482197_ver_1.jpg'
+    },
+    {
+        text: "Какво представлява sprite в Scratch?",
+        options: [
+            { id: 0, text: "Герой или обект, с който можем да взаимодействаме", isCorrect: true },
+            { id: 1, text: "Инструмент за рисуване", isCorrect: false },
+            { id: 2, text: "Звук в проекта", isCorrect: false },
+            { id: 3, text: "Програмен код", isCorrect: false }
+        ],
+        imageUrl: 'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/02wchouritvxqgixxoeagap-2.fit-scale.size-760x427.v1569482197_ver_1.jpg'
+    },
+    {
+        text: "Кое от следните е вид блок в Scratch?",
+        options: [
+            { id: 0, text: "Цветен блок", isCorrect: false },
+            { id: 1, text: "Движение/Motion", isCorrect: true },
+            { id: 2, text: "Хардуерен блок", isCorrect: false },
+            { id: 3, text: "Текстов блок", isCorrect: false }
+        ],
+        imageUrl: 'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/02wchouritvxqgixxoeagap-2.fit-scale.size-760x427.v1569482197_ver_1.jpg'
+    },
+    {
+        text: "Какво прави блокът Repeat() в Scratch?",
+        options: [
+            { id: 0, text: "Спира програмата", isCorrect: false },
+            { id: 1, text: "Повтаря една и съща команда няколко пъти", isCorrect: true },
+            { id: 2, text: "Изтрива код", isCorrect: false },
+            { id: 3, text: "Запазва проект", isCorrect: false }
+        ],
+        imageUrl: 'https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/02wchouritvxqgixxoeagap-2.fit-scale.size-760x427.v1569482197_ver_1.jpg'
     }
 
 
