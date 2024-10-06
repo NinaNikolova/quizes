@@ -215,6 +215,142 @@ const questionsEN = [
         ],
         imageUrl: null
     },
+    {
+        text: "Circle the correct word: Baked/______ turkey is a traditional Christmas dish in the UK.",
+        options: [
+            { id: 0, text: "Baked", isCorrect: false },
+            { id: 1, text: "Roast", isCorrect: true }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct word: The Big Apple is a ______ for New York.",
+        options: [
+            { id: 0, text: "nickname", isCorrect: true },
+            { id: 1, text: "surname", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct word: Betty was down with ______ last week.",
+        options: [
+            { id: 0, text: "flu", isCorrect: true },
+            { id: 1, text: "fever", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct word: I love ______ with my friends after school.",
+        options: [
+            { id: 0, text: "hanging", isCorrect: false },
+            { id: 1, text: "hanging out", isCorrect: true }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct word: My little brother always has ______ in the afternoon.",
+        options: [
+            { id: 0, text: "sleep", isCorrect: false },
+            { id: 1, text: "a nap", isCorrect: true }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentence: I like ______ clothes like jeans and T-shirts. But sometimes I prefer to look smart.",
+        options: [
+            { id: 0, text: "casual", isCorrect: true },
+            { id: 1, text: "swollen", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentence: Summers here are very hot and ______. It almost never rains.",
+        options: [
+            { id: 0, text: "dry", isCorrect: true },
+            { id: 1, text: "sick", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentence: Do you want to ______ in a boat around the island?",
+        options: [
+            { id: 0, text: "sail", isCorrect: true },
+            { id: 1, text: "swim", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentence: I feel ______! I need to lie down.",
+        options: [
+            { id: 0, text: "sick", isCorrect: true },
+            { id: 1, text: "brave", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentence: Vicky isn’t very ______. She’s afraid of climbing up trees.",
+        options: [
+            { id: 0, text: "brave", isCorrect: true },
+            { id: 1, text: "dry", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct form of the verb: Yesterday afternoon, Justin ______ (see) smoke coming from under a tree.",
+        options: [
+            { id: 0, text: "saw", isCorrect: true },
+            { id: 1, text: "see", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct form of the verb: I ______ (phone) you twice this morning but you didn’t answer.",
+        options: [
+            { id: 0, text: "phoned", isCorrect: true },
+            { id: 1, text: "phone", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct form of the verb: I ______ (not believe) my eyes – Vicky ______ (wear) a T-shirt!",
+        options: [
+            { id: 0, text: "did not believe", isCorrect: true },
+            { id: 1, text: "does not believe", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct comparative or superlative form: A town is ______ than a city.",
+        options: [
+            { id: 0, text: "smaller", isCorrect: true },
+            { id: 1, text: "smallest", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct comparative or superlative form: Jessica is ______ than her friend Paula.",
+        options: [
+            { id: 0, text: "more communicative", isCorrect: true },
+            { id: 1, text: "most communicative", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Write the correct comparative or superlative form: Border collies are ______ dogs in the world.",
+        options: [
+            { id: 0, text: "the most intelligent", isCorrect: true },
+            { id: 1, text: "more intelligent", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Underline the correct answer: What are you doing tonight? I'm meeting ______ friends.",
+        options: [
+            { id: 0, text: "(–)", isCorrect: false },
+            { id: 1, text: "some", isCorrect: true }
+        ],
+        imageUrl: null
+    }
 ];
 
 export default questionsEN;
