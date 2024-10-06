@@ -13,6 +13,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="geo">География</option>
                 <option value="km">КМИТ</option>
                 <option value="en">Английски език</option>
+                <option value="en">Правилни и непр.глаголи AE</option>
             </select>
         </div>
     )
