@@ -8,6 +8,7 @@ import questionsLit from "./data/questions-lit.js";
 import questionsGeo from "./data/questions-geo.js";
 import questionsChp from "./data/questions-chp.js";
 import questionsKM from "./data/questions-km.js";
+import questionsEN from "./data/questions-en.js";
 import QuizSelector from "./components/QuizSelector.js";
 
 import { calculateGrade } from "./utils/calculateGrade.js";
@@ -43,6 +44,8 @@ function App() {
                 return questionsChp;
             case 'km':
                 return questionsKM;
+            case 'en':
+                return questionsEN;
             default:
                 return [];
         }
