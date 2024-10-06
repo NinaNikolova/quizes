@@ -215,15 +215,6 @@ const questionsEN = [
         ],
         imageUrl: null
     },
-    {
-        text: "Complete Michael’s story with the verbs in the box. It 1. ............. January 1, 2017 and it 2. ............ my birthday.",
-        options: [
-            { id: 0, text: "was", isCorrect: true },
-            { id: 1, text: "were", isCorrect: false },
-            { id: 2, text: "be", isCorrect: false }
-        ],
-        imageUrl: null
-    }
 ];
 
 export default questionsEN;
