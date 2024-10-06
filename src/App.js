@@ -176,6 +176,11 @@ function App() {
                         <a href='https://www.youtube.com/watch?v=_wRWyYyRyfc' >Виж видео Present Simple vs. Present Continuous тук</a>
                     </div>
 
+                ) : selectedQuiz === 'en2' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/playlist?list=PLhosOgmtjGqlxTUj4gG5cMjsXk6adEqnm' >Виж видео Неправилни глаголи тук</a>
+                    </div>
+
                 )
                     : null
             }
