@@ -346,7 +346,7 @@ const questionsEN = [
     {
         text: "Underline the correct answer: What are you doing tonight? I'm meeting ______ friends.",
         options: [
-            { id: 0, text: "(–)", isCorrect: false },
+            { id: 0, text: "one", isCorrect: false },
             { id: 1, text: "some", isCorrect: true }
         ],
         imageUrl: null
