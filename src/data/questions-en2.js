@@ -2,8 +2,8 @@ const questionsEN2 = [
     {
         text: "She (bring) some chocolates to the party.",
         options: [
-            { id: 0, text: "She brought some chocolates to the party.", isCorrect: true },
-            { id: 1, text: "She bring some chocolates to the party.", isCorrect: false }
+            { id: 0, text: "She bring some chocolates to the party.", isCorrect: false },
+            { id: 1, text: "She brought some chocolates to the party.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -26,8 +26,8 @@ const questionsEN2 = [
     {
         text: "They (speak) French to the waitress.",
         options: [
-            { id: 0, text: "They spoke French to the waitress.", isCorrect: true },
-            { id: 1, text: "They speak French to the waitress.", isCorrect: false }
+            { id: 0, text: "They speak French to the waitress.", isCorrect: false },
+            { id: 1, text: "They spoke French to the waitress.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -50,8 +50,8 @@ const questionsEN2 = [
     {
         text: "She (have) a baby in June.",
         options: [
-            { id: 0, text: "She had a baby in June.", isCorrect: true },
-            { id: 1, text: "She has a baby in June.", isCorrect: false }
+            { id: 0, text: "She has a baby in June.", isCorrect: false },
+            { id: 1, text: "She had a baby in June.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -74,8 +74,9 @@ const questionsEN2 = [
     {
         text: "I (walk) to work last week.",
         options: [
-            { id: 0, text: "I walked to work last week.", isCorrect: true },
-            { id: 1, text: "I walk to work last week.", isCorrect: false }
+            { id: 0, text: "I walk to work last week.", isCorrect: false },
+            { id: 1, text: "I walked to work last week.", isCorrect: true },
+
         ],
         imageUrl: null
     },
@@ -98,8 +99,8 @@ const questionsEN2 = [
     {
         text: "We (marry) in a church.",
         options: [
-            { id: 0, text: "We married in a church.", isCorrect: true },
-            { id: 1, text: "We marry in a church.", isCorrect: false }
+            { id: 0, text: "We marry in a church.", isCorrect: false },
+            { id: 1, text: "We married in a church.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -114,8 +115,8 @@ const questionsEN2 = [
     {
         text: "I (give) my mother a CD for Christmas.",
         options: [
-            { id: 0, text: "I gave my mother a CD for Christmas.", isCorrect: true },
-            { id: 1, text: "I give my mother a CD for Christmas.", isCorrect: false }
+            { id: 0, text: "I give my mother a CD for Christmas.", isCorrect: false },
+            { id: 1, text: "I gave my mother a CD for Christmas.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -138,8 +139,8 @@ const questionsEN2 = [
     {
         text: "Bob (need) that book yesterday.",
         options: [
-            { id: 0, text: "Bob needed that book yesterday.", isCorrect: true },
-            { id: 1, text: "Bob need that book yesterday.", isCorrect: false }
+            { id: 0, text: "Bob need that book yesterday.", isCorrect: false },
+            { id: 1, text: "Bob needed that book yesterday.", isCorrect: true },
         ],
         imageUrl: null
     },
@@ -147,7 +148,8 @@ const questionsEN2 = [
         text: "At the age of 23, she (become) a doctor.",
         options: [
             { id: 0, text: "At the age of 23, she became a doctor.", isCorrect: true },
-            { id: 1, text: "At the age of 23, she become a doctor.", isCorrect: false }
+            { id: 1, text: "At the age of 23, she become a doctor.", isCorrect: false },
+            { id: 2, text: "At the age of 23, she becames a doctor.", isCorrect: false },
         ],
         imageUrl: null
     },
@@ -162,8 +164,9 @@ const questionsEN2 = [
     {
         text: "The teacher (help) the students after class.",
         options: [
-            { id: 0, text: "The teacher helped the students after class.", isCorrect: true },
-            { id: 1, text: "The teacher help the students after class.", isCorrect: false }
+            { id: 0, text: "The teacher holpd the students after class.", isCorrect: false },
+            { id: 1, text: "The teacher help the students after class.", isCorrect: false },
+            { id: 2, text: "The teacher helped the students after class.", isCorrect: true },
         ],
         imageUrl: null
     },
