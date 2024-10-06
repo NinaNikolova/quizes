@@ -173,7 +173,7 @@ function App() {
 
                 ) : selectedQuiz === 'en' ? (
                     <div className="video">
-                        <a href='https://www.youtube.com/watch?v=_wRWyYyRyfc' >Виж видео за Сегашно просто и сегашно продължително време тук</a>
+                        <a href='https://www.youtube.com/watch?v=_wRWyYyRyfc' >Виж видео Present Simple vs. Present Continuous тук</a>
                     </div>
 
                 )
