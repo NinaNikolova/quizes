@@ -171,6 +171,11 @@ function App() {
                         <a href='https://www.youtube.com/playlist?list=PLCiZTQRHm-4Ot4TFc_IoLZT_bJzcNzARE' >Виж видеa по КМИТ тук</a>
                     </div>
 
+                ) : selectedQuiz === 'en' ? (
+                    <div className="video">
+                        <a href='https://www.youtube.com/watch?v=_wRWyYyRyfc' >Виж видео за Сегашно просто и сегашно продължително време тук</a>
+                    </div>
+
                 )
                     : null
             }
