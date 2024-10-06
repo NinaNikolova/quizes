@@ -124,6 +124,105 @@ const questionsEN = [
             { id: 2, text: "Does, give", isCorrect: false }
         ],
         imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of the verb *be* – present or past, positive or negative. They ..................... at home. They went out 20 minutes ago.",
+        options: [
+            { id: 0, text: "were", isCorrect: false },
+            { id: 1, text: "aren’t", isCorrect: true },
+            { id: 2, text: "was", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of the verb *be*. A: Whose dog ..................... that? ....................... it yours? B: No, it ....................... .",
+        options: [
+            { id: 0, text: "is; is; isn’t", isCorrect: true },
+            { id: 1, text: "was; is; wasn’t", isCorrect: false },
+            { id: 2, text: "are; are; weren’t", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of the verb *be*. She ..................... never on time for school last week.",
+        options: [
+            { id: 0, text: "was", isCorrect: true },
+            { id: 1, text: "is", isCorrect: false },
+            { id: 2, text: "were", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of the verb *be*. A: You stayed at a hotel last weekend. ..................... the view beautiful? B: Yes indeed, it ..................... fantastic.",
+        options: [
+            { id: 0, text: "was; was", isCorrect: true },
+            { id: 1, text: "is; is", isCorrect: false },
+            { id: 2, text: "was; is", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of the verb *be*. A: Where ..................... you last night? Why ..................... you at home? B: We ..................... out with friends. But it ..................... late when we came home – it was around 10 pm.",
+        options: [
+            { id: 0, text: "were; weren’t; were; wasn’t", isCorrect: true },
+            { id: 1, text: "was; were; wasn’t; was", isCorrect: false },
+            { id: 2, text: "were; was; weren’t; weren’t", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of *there is/there are* and *have got/has got* – positive, negative or question. ......................... some fruit in the fridge.",
+        options: [
+            { id: 0, text: "There is", isCorrect: true },
+            { id: 1, text: "There are", isCorrect: false },
+            { id: 2, text: "Has got", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of *there is/there are* and *have got/has got*. How much money ......................... you .........................?",
+        options: [
+            { id: 0, text: "have; got", isCorrect: true },
+            { id: 1, text: "has; have", isCorrect: false },
+            { id: 2, text: "is; got", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete the sentences with the correct form of *there is/there are* and *have got/has got*. I’m busy, I .......................................... much time for talking.",
+        options: [
+            { id: 0, text: "haven’t got", isCorrect: true },
+            { id: 1, text: "has got", isCorrect: false },
+            { id: 2, text: "am not", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct answer to complete the sentence: Turn down the volume, please. I ...... to do my History project.",
+        options: [
+            { id: 0, text: "try", isCorrect: false },
+            { id: 1, text: "am trying", isCorrect: true },
+            { id: 2, text: "tried", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Circle the correct answer to complete the sentence: A supersonic plane ...... faster than the speed of sound.",
+        options: [
+            { id: 0, text: "fly", isCorrect: false },
+            { id: 1, text: "flies", isCorrect: true },
+            { id: 2, text: "is flying", isCorrect: false }
+        ],
+        imageUrl: null
+    },
+    {
+        text: "Complete Michael’s story with the verbs in the box. It 1. ............. January 1, 2017 and it 2. ............ my birthday.",
+        options: [
+            { id: 0, text: "was", isCorrect: true },
+            { id: 1, text: "were", isCorrect: false },
+            { id: 2, text: "be", isCorrect: false }
+        ],
+        imageUrl: null
     }
 ];
 
